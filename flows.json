@@ -1,1 +1,4012 @@
-[]
+[
+    {
+        "id": "0e1f3206f48adf14",
+        "type": "tab",
+        "label": "PEM1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "06c6cdf71851940d",
+        "type": "group",
+        "z": "0e1f3206f48adf14",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "1e299bd8d38544be",
+            "6d065f0ebbf0e7aa",
+            "8e6bccc8c5f45c9e",
+            "3ca569c54e5ebb61",
+            "3a2e5ae01db4a464",
+            "a54b88ebdc027299",
+            "562e1b5e88637fd1",
+            "375e0ce60e51a32b",
+            "d00973e02ef2d64c",
+            "a1bf5e81cfcf58e3",
+            "5811aec5a8ea97c9",
+            "94f03e995178a385",
+            "438e39b4aba09a68"
+        ],
+        "x": 34,
+        "y": 1739,
+        "w": 992,
+        "h": 222
+    },
+    {
+        "id": "5258e746159f915c",
+        "type": "group",
+        "z": "0e1f3206f48adf14",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "b2ffb736253c42ce",
+            "d7b83c3bdbc132fc",
+            "1b3f23fa28e5b05a",
+            "bbfb835cba9a9b5a",
+            "e584a862ec7a5156",
+            "76a236a0770e41b9",
+            "08288dd29ba947c3",
+            "6b9d33d8dd75bde6",
+            "f6e9e2024354ebb6",
+            "db7d84da82eb83ee",
+            "bfa18773572a7fef",
+            "1adcfbfd7586ce6b",
+            "b6f7853f398c93d3",
+            "8ad41d8b3762ac44",
+            "a28627b538e4350e",
+            "3655c26dfb4896fd",
+            "ffaf214f88de0731",
+            "d38f94132ffbf8d2",
+            "5b8cf5d0895f5826",
+            "3c9c30b75e7298df",
+            "33d09f0b8f4f9363",
+            "2a7dda672fc3e645",
+            "23ec338b4258df73",
+            "e3b7e200883886f3"
+        ],
+        "x": 34,
+        "y": 1379,
+        "w": 1572,
+        "h": 302
+    },
+    {
+        "id": "ad5ef647cb4ea746",
+        "type": "group",
+        "z": "0e1f3206f48adf14",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "968c5c6feb1e2ed1",
+            "f679ca1115c46a1e",
+            "65f4a6d329a20c56",
+            "c64bdfa07c836a68",
+            "fa4ba3044dddabf0"
+        ],
+        "x": 34,
+        "y": 2479,
+        "w": 752,
+        "h": 129.5
+    },
+    {
+        "id": "32776a10d46d718d",
+        "type": "group",
+        "z": "0e1f3206f48adf14",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "2f255b937f973673",
+            "c71dee702c83ad9e",
+            "31d64b3b3f71f090",
+            "c2e94988fc480afa",
+            "214a8a9f249e5677",
+            "1fa25a2cb5e31ef6"
+        ],
+        "x": 44,
+        "y": 279,
+        "w": 902,
+        "h": 142
+    },
+    {
+        "id": "b5c880e558e89abe",
+        "type": "group",
+        "z": "0e1f3206f48adf14",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "83e549ac89bad390",
+            "6de10b54dda585b9",
+            "9d6d4a50ba28b501",
+            "18ecbf3af9f09387",
+            "33456f72e3f84419",
+            "2e2281a7ce0eced6",
+            "c7de23c01c2709f7"
+        ],
+        "x": 974,
+        "y": 279,
+        "w": 992,
+        "h": 142
+    },
+    {
+        "id": "35a088b350aa3972",
+        "type": "group",
+        "z": "0e1f3206f48adf14",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "65208708e4372bc8",
+            "9e18a41a3b8642c5",
+            "943a5030140a9a9c",
+            "a5039fb22db64485",
+            "dde994293b55d732",
+            "076f9c6f669d462b",
+            "ef7e4a5d1320bf80",
+            "2c3d63ee4f877c5a",
+            "526e1843558ad752",
+            "e82e6a879dd35783",
+            "29d0ac5a03343b5a",
+            "cb949aacedf8b399",
+            "23e13ab57ea9677a",
+            "79825c3787a4c650",
+            "507551d81d7cb8e2"
+        ],
+        "x": 1134,
+        "y": 439,
+        "w": 612,
+        "h": 302
+    },
+    {
+        "id": "8523ba6f048159f6",
+        "type": "group",
+        "z": "0e1f3206f48adf14",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "56b364be4f21de16",
+            "aa5db110eb32f34a",
+            "9c9c3c1ab31cb97b",
+            "fe0bb0717405edc1",
+            "82f361b8a87140d7",
+            "44769ace05fdd10b",
+            "e493350636115e64",
+            "4e7075779e249d2a",
+            "edc71474186d9603",
+            "81b6eb9b5e5dcf0a",
+            "a1a88e13dcb6c08c",
+            "24805c900167c968",
+            "9aa23de8df763ac7",
+            "fb1edbf186530db5",
+            "15100a34803ec0b4",
+            "a6d1d00bbd920ed1",
+            "d835db8fa2b703e5",
+            "aa176dc0751837e6",
+            "92177eb81bdef385",
+            "c01aa3cf6b0ca42b",
+            "0acf4c3f1837eb3e",
+            "561af053f2a01b14",
+            "0a90f31996d9f9fb",
+            "6c1ca61ccb0e9fe7",
+            "f57cc15c0a1a5d40"
+        ],
+        "x": 44,
+        "y": 779,
+        "w": 1702,
+        "h": 362
+    },
+    {
+        "id": "783a604ad685b5f5",
+        "type": "group",
+        "z": "0e1f3206f48adf14",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "csv_input",
+            "csv_parser",
+            "filter_modbus_tags",
+            "debug_output",
+            "f76507ef24e89f5d",
+            "b0b0082253400cef",
+            "36c18d3f22455110",
+            "ba78053e5aaa7eed",
+            "023cde579789cf6c",
+            "f9d70936d5ff8c9b",
+            "510b431ad3e38e97"
+        ],
+        "x": 34,
+        "y": 439,
+        "w": 1092,
+        "h": 262
+    },
+    {
+        "id": "5b0cb2ad787928a3",
+        "type": "group",
+        "z": "0e1f3206f48adf14",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "b0a864ef66666d4a",
+            "2271e77eb4e2a99f",
+            "63cb78ec39e736ad",
+            "6c73cdcd6ef2299b"
+        ],
+        "x": 94,
+        "y": 2739,
+        "w": 352,
+        "h": 182
+    },
+    {
+        "id": "c0966926fbe2b256",
+        "type": "group",
+        "z": "0e1f3206f48adf14",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "8ac4f1e65d36793f",
+            "a9957cd453f3c243",
+            "20b7556dbd07279f",
+            "5350718cde70e471",
+            "2f9a24fc5a17ebd3"
+        ],
+        "x": 74,
+        "y": 2979,
+        "w": 372,
+        "h": 182
+    },
+    {
+        "id": "28d6aa434baf0184",
+        "type": "group",
+        "z": "0e1f3206f48adf14",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "78c83855ada6c722",
+            "0c0d9dd093999933",
+            "2c986d49933c2836",
+            "ac0118475b89b5f1",
+            "a2cabbb3e1741f6d",
+            "e3749f3cbe911471",
+            "601c184cc8cd4fe2",
+            "75e9b4cbb923d25a",
+            "be2a05249dece704"
+        ],
+        "x": 34,
+        "y": 2079,
+        "w": 832,
+        "h": 242
+    },
+    {
+        "id": "525f6434f47c15f1",
+        "type": "group",
+        "z": "0e1f3206f48adf14",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "731b3aa4b9eea197",
+            "ad1436e2f7b892fd",
+            "87476d790eb1dfab",
+            "4ae111cdbb1031f3"
+        ],
+        "x": 874,
+        "y": 19,
+        "w": 352,
+        "h": 162
+    },
+    {
+        "id": "e1b6d5ba8d3de0b8",
+        "type": "group",
+        "z": "0e1f3206f48adf14",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "401a02e5f0a36a3a",
+            "c025225aa660bf27",
+            "7359636993bb200e",
+            "c955b39b856d6b12"
+        ],
+        "x": 494,
+        "y": 19,
+        "w": 292,
+        "h": 182
+    },
+    {
+        "id": "1c1f20c3ada10fc1",
+        "type": "group",
+        "z": "0e1f3206f48adf14",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "49263ca4933dbd63",
+            "f8e57f19654fa8e7",
+            "e40c571c4e7e87b2",
+            "97a11857dbdbcc02",
+            "1ee5227dd94e166a",
+            "b497c2e56b6b9439",
+            "df1fd79072832199"
+        ],
+        "x": 14,
+        "y": 19,
+        "w": 412,
+        "h": 222
+    },
+    {
+        "id": "f905b5f3395bcec1",
+        "type": "modbus-client",
+        "name": "PEM1",
+        "clienttype": "tcp",
+        "bufferCommands": true,
+        "stateLogEnabled": false,
+        "queueLogEnabled": false,
+        "failureLogEnabled": true,
+        "tcpHost": "10.0.0.10",
+        "tcpPort": 502,
+        "tcpType": "DEFAULT",
+        "serialPort": "/dev/ttyUSB",
+        "serialType": "RTU-BUFFERD",
+        "serialBaudrate": 9600,
+        "serialDatabits": 8,
+        "serialStopbits": 1,
+        "serialParity": "none",
+        "serialConnectionDelay": 100,
+        "serialAsciiResponseStartDelimiter": "0x3A",
+        "unit_id": 1,
+        "commandDelay": 1,
+        "clientTimeout": 1000,
+        "reconnectOnTimeout": true,
+        "reconnectTimeout": 2000,
+        "parallelUnitIdsAllowed": true,
+        "showErrors": false,
+        "showWarnings": true,
+        "showLogs": true
+    },
+    {
+        "id": "d3d55aa3f04b322d",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "58c2aa06.ef46e4",
+        "type": "ui_tab",
+        "name": "Setting",
+        "icon": "settings",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "78c63c00e1f5b7aa",
+        "type": "ui_group",
+        "name": "Control",
+        "tab": "d3d55aa3f04b322d",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "03ac2f6393c19355",
+        "type": "ui_group",
+        "name": "Data Table",
+        "tab": "d3d55aa3f04b322d",
+        "order": 3,
+        "disp": true,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "adaa473fe0dfd2cc",
+        "type": "ui_group",
+        "name": "Coil status",
+        "tab": "d3d55aa3f04b322d",
+        "order": 2,
+        "disp": true,
+        "width": 3,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2d8055515cc5bf53",
+        "type": "ui_group",
+        "name": "P&ID",
+        "tab": "d3d55aa3f04b322d",
+        "order": 4,
+        "disp": true,
+        "width": 10,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "625872f.40b1e8c",
+        "type": "ui_group",
+        "name": "Email subscription",
+        "tab": "58c2aa06.ef46e4",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ab7479acc3290afa",
+        "type": "ui_spacer",
+        "z": "0e1f3206f48adf14",
+        "name": "spacer",
+        "group": "625872f.40b1e8c",
+        "order": 1,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "8904590e578284a5",
+        "type": "ui_spacer",
+        "z": "0e1f3206f48adf14",
+        "name": "spacer",
+        "group": "78c63c00e1f5b7aa",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "147d23dc1a2f839b",
+        "type": "ui_spacer",
+        "z": "0e1f3206f48adf14",
+        "name": "spacer",
+        "group": "78c63c00e1f5b7aa",
+        "order": 9,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "a9e18c626712b53e",
+        "type": "ui_spacer",
+        "z": "0e1f3206f48adf14",
+        "name": "spacer",
+        "group": "78c63c00e1f5b7aa",
+        "order": 10,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "1155d03b7a7d2320",
+        "type": "ui_spacer",
+        "z": "0e1f3206f48adf14",
+        "name": "spacer",
+        "group": "78c63c00e1f5b7aa",
+        "order": 11,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "eabc801237a99be5",
+        "type": "ui_spacer",
+        "z": "0e1f3206f48adf14",
+        "name": "spacer",
+        "group": "03ac2f6393c19355",
+        "order": 2,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "f772928026746fc5",
+        "type": "ui_spacer",
+        "z": "0e1f3206f48adf14",
+        "name": "spacer",
+        "group": "03ac2f6393c19355",
+        "order": 5,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "36e98535ec20f653",
+        "type": "ui_spacer",
+        "z": "0e1f3206f48adf14",
+        "name": "spacer",
+        "group": "2d8055515cc5bf53",
+        "order": 1,
+        "width": 10,
+        "height": 1
+    },
+    {
+        "id": "5f0012fbdb2960ef",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "401a02e5f0a36a3a",
+        "type": "inject",
+        "z": "0e1f3206f48adf14",
+        "g": "e1b6d5ba8d3de0b8",
+        "name": "Start Test Script",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "iso",
+        "payloadType": "date",
+        "x": 620,
+        "y": 120,
+        "wires": [
+            [
+                "7359636993bb200e"
+            ]
+        ]
+    },
+    {
+        "id": "b2ffb736253c42ce",
+        "type": "file in",
+        "z": "0e1f3206f48adf14",
+        "g": "5258e746159f915c",
+        "name": "Read Test Script CSV",
+        "filename": "/app/files/Test Sequence Script.csv",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 520,
+        "y": 1520,
+        "wires": [
+            [
+                "d7b83c3bdbc132fc"
+            ]
+        ]
+    },
+    {
+        "id": "d7b83c3bdbc132fc",
+        "type": "csv",
+        "z": "0e1f3206f48adf14",
+        "g": "5258e746159f915c",
+        "name": "Parse CSV to JSON",
+        "sep": ",",
+        "hdrin": true,
+        "hdrout": "none",
+        "multi": "mult",
+        "ret": "\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": false,
+        "include_null_values": false,
+        "x": 740,
+        "y": 1520,
+        "wires": [
+            [
+                "1b3f23fa28e5b05a",
+                "e584a862ec7a5156"
+            ]
+        ]
+    },
+    {
+        "id": "1b3f23fa28e5b05a",
+        "type": "function",
+        "z": "0e1f3206f48adf14",
+        "g": "5258e746159f915c",
+        "name": "Process Test Sequence",
+        "func": "// Initialize index to track the current row being processed\nvar index = 0;\n\n// Store CSV data from the incoming message payload\nvar data = msg.payload;\n\nlet timeoutID2 = flow.get(\"timeoutID2\");\n\n// Ensure the data is an array before processing\nif (!Array.isArray(data) || data.length === 0) {\n    node.error(\"CSV data is empty or not an array\", msg);\n    return null;\n}\n\nfunction processNextRow() {\n    // Check if all rows have been processed\n    if (index >= data.length) {\n        node.status({ text: \"Test Completed\" });\n        flow.set(\"testStep\", \"Test Completed\");\n        var triggerMsg = { payload: \"Test Completed\" };\n        node.send([null, triggerMsg]);\n        return;\n    }\n\n    var row = data[index];\n\n    // Validate row data before processing\n    if (!row || row.Duration === undefined) {\n        node.error(`Invalid row data at index ${index}: ${JSON.stringify(row)}`, msg);\n        return;\n    }\n\n    node.status({ text: `Row ${index + 1}: Processing setpoints` });\n    flow.set(\"testStep\", \"Step\" + (index + 1) + \" Processing setpoints\");\n\n    let modbusValues = [];\n    let address = 100; // Starting Modbus address, adjust as needed\n\n    // Process all elements in the row except 'Test Step' and 'Duration'\n    Object.keys(row).forEach(tag => {\n        if (tag !== \"Test_step\" && tag !== \"Duration\") {\n            let buffer = Buffer.alloc(4);\n            buffer.writeFloatBE(parseFloat(row[tag]), 0);\n            modbusValues.push(buffer.readUInt16BE(2)); // High 16 bits\n            modbusValues.push(buffer.readUInt16BE(0)); // Low 16 bits\n        }\n    });\n\n    // Ensure modbusValues length is even (required for Modbus FC16)\n    if (modbusValues.length % 2 !== 0) {\n        node.error(\"Invalid register quantity: Must be an even number\", msg);\n        return;\n    }\n\n    // Create Modbus write message with all setpoints\n    var combinedMsg = {\n        payload: {\n            'unitId': 1,\n            'fc': 16,  // Function Code: Write Multiple Registers\n            'address': address,  // Starting address for the first tag.  Modbus Address (400001 - 400001 = 10 for 0-based addressing)\n            'quantity': modbusValues.length,\n            'value': modbusValues\n        }\n    };\n\n    // Retrieve test duration and initialize counter\n    var duration = parseInt(row.Duration);\n    var counter = 0;\n\n    function loop() {\n        let stopTest = flow.get(\"stopTest\");\n        let permStatus = flow.get(\"permStatus\");\n        let modHoldReg = flow.get(\"modHoldReg\") || [];\n\n        if (stopTest === true || permStatus === false) {\n            let statusMessage = \"Stopped\";\n            node.status({ text: statusMessage });\n            flow.set(\"testStep\", statusMessage);\n            if (timeoutID2) {\n                clearTimeout(timeoutID2);\n                flow.set(\"timeoutID2\", null); // Clear the timeout ID from flow\n            }\n            \n            let currentSetpoint = modHoldReg.find(entry => entry[\"Tag Name\"] === \"Current_Setpoint\");\n            let voltageSetpoint = modHoldReg.find(entry => entry[\"Tag Name\"] === \"Voltage_Setpoint\");\n            \n            let resetMsg = {\n                payload: {\n                    'unitId': 1,\n                    'fc': 16,\n                    'address': Math.min(currentSetpoint[\"MODBUS Start Address\"], voltageSetpoint[\"MODBUS Start Address\"]) - 400001,\n                    'quantity': 4,\n                    'value': [0, 0, 0, 0]  // Set both to zero\n                }\n            };\n            \n            var triggerMsg = { payload: \"Test Completed\" };\n            node.send([resetMsg, triggerMsg]);\n            return;\n        }\n\n        if (counter < duration) {\n            node.send([combinedMsg, null]);\n            counter++;\n            timeoutID2 = setTimeout(loop, 1000); // Check conditions every second\n            flow.set(\"timeoutID2\", timeoutID2); // Store the timeout ID in flow\n        } else {\n            index++;\n            processNextRow();\n        }\n    }\n\n    loop(); // Start the counter loop\n}\n\n// Start processing the first row\n// Clear timeout if test is stopped\nif (flow.get(\"testStep\") === \"Stopped\") {\n    if (timeoutID2) {\n        clearTimeout(timeoutID2);\n        flow.set(\"timeoutID2\", null); // Clear the timeout ID from flow\n    }\n} else {\n    processNextRow();\n}\n\n\nreturn null;\n",
+        "outputs": 2,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1010,
+        "y": 1520,
+        "wires": [
+            [
+                "bbfb835cba9a9b5a",
+                "76a236a0770e41b9"
+            ],
+            [
+                "6b9d33d8dd75bde6",
+                "db7d84da82eb83ee",
+                "e3b7e200883886f3"
+            ]
+        ]
+    },
+    {
+        "id": "e584a862ec7a5156",
+        "type": "debug",
+        "z": "0e1f3206f48adf14",
+        "g": "5258e746159f915c",
+        "name": "debug_Test Sequence Script",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 800,
+        "y": 1460,
+        "wires": []
+    },
+    {
+        "id": "76a236a0770e41b9",
+        "type": "debug",
+        "z": "0e1f3206f48adf14",
+        "g": "5258e746159f915c",
+        "name": "debug_main_process CSV rows",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1310,
+        "y": 1460,
+        "wires": []
+    },
+    {
+        "id": "aa5db110eb32f34a",
+        "type": "function",
+        "z": "0e1f3206f48adf14",
+        "g": "8523ba6f048159f6",
+        "name": "Read logTag_PV values",
+        "func": "// Retrieve logTags from flow context\nlet logTags = flow.get(\"logTags\") || [];\n\n// Each float requires 2 Modbus registers\nlet quantity = logTags.length * 2;\n\n// Construct Modbus request\nmsg.payload = {\n    'unitId': 1,       // PLC Modbus Unit ID\n    'fc': 3,          // Function Code: Read Holding Registers\n    'address': 0,    // Modbus Address (400001 - 400001 = 10 for 0-based addressing)\n    'quantity': 12  // Dynamic quantity based on logTags\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 1000,
+        "wires": [
+            [
+                "56b364be4f21de16",
+                "fe0bb0717405edc1"
+            ]
+        ]
+    },
+    {
+        "id": "9c9c3c1ab31cb97b",
+        "type": "function",
+        "z": "0e1f3206f48adf14",
+        "g": "8523ba6f048159f6",
+        "name": "Modbus Data Parsing",
+        "func": "// Ensure payload is received\nif (!msg.payload) {\n    node.warn(\"Missing payload\");\n    return null;\n}\n\n// Retrieve log tag names from flow context\nlet logTags = flow.get(\"logTags\") || [];\nlet parsedData = {};\nlet buffer = Buffer.alloc(4);\n\n// Add timestamp\nlet timestamp = new Date().toISOString();\nparsedData[\"timestamp\"] = timestamp;\n\n// Process Modbus response dynamically\nfor (let i = 0; i < logTags.length; i++) {\n    let tagName = logTags[i];\n\n    // Ensure we have enough data for each tag (each float takes 2 registers)\n    if ((i * 2 + 1) < msg.payload.length) {\n        buffer.writeUInt16BE(msg.payload[i * 2], 2);\n        buffer.writeUInt16BE(msg.payload[i * 2 + 1], 0);\n        parsedData[tagName] = parseFloat(buffer.readFloatBE(0).toFixed(3)); // Keep only 3 decimal places\n    } else {\n        node.warn(`Insufficient data for tag: ${tagName}`);\n        parsedData[tagName] = null; // Assign null if data is missing\n    }\n}\n\n// Set the parsed data as the new payload\nmsg.payload = parsedData;\nflow.set(\"modbus_data_PV\", msg.payload);\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1060,
+        "y": 1000,
+        "wires": [
+            [
+                "a1a88e13dcb6c08c",
+                "aa176dc0751837e6"
+            ]
+        ]
+    },
+    {
+        "id": "1e299bd8d38544be",
+        "type": "file",
+        "z": "0e1f3206f48adf14",
+        "g": "06c6cdf71851940d",
+        "name": "Data logging to CSV",
+        "filename": "/app/files/data file.csv",
+        "filenameType": "str",
+        "appendNewline": false,
+        "createDir": true,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 900,
+        "y": 1820,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fe0bb0717405edc1",
+        "type": "debug",
+        "z": "0e1f3206f48adf14",
+        "g": "8523ba6f048159f6",
+        "name": "debug_getter input",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 690,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "6d065f0ebbf0e7aa",
+        "type": "csv",
+        "z": "0e1f3206f48adf14",
+        "g": "06c6cdf71851940d",
+        "name": "",
+        "spec": "rfc",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "once",
+        "multi": "one",
+        "ret": "\\r\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 730,
+        "y": 1820,
+        "wires": [
+            [
+                "8e6bccc8c5f45c9e",
+                "1e299bd8d38544be"
+            ]
+        ]
+    },
+    {
+        "id": "8e6bccc8c5f45c9e",
+        "type": "debug",
+        "z": "0e1f3206f48adf14",
+        "g": "06c6cdf71851940d",
+        "name": "debug 4",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 880,
+        "y": 1780,
+        "wires": []
+    },
+    {
+        "id": "44769ace05fdd10b",
+        "type": "trigger",
+        "z": "0e1f3206f48adf14",
+        "g": "8523ba6f048159f6",
+        "name": "",
+        "op1": "1",
+        "op2": "0",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "-1",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "Test Completed",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 420,
+        "y": 1000,
+        "wires": [
+            [
+                "aa5db110eb32f34a",
+                "9aa23de8df763ac7"
+            ]
+        ]
+    },
+    {
+        "id": "6b9d33d8dd75bde6",
+        "type": "debug",
+        "z": "0e1f3206f48adf14",
+        "g": "5258e746159f915c",
+        "name": "End of test",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1030,
+        "y": 1460,
+        "wires": []
+    },
+    {
+        "id": "f6e9e2024354ebb6",
+        "type": "comment",
+        "z": "0e1f3206f48adf14",
+        "g": "5258e746159f915c",
+        "name": "Test Complete",
+        "info": "Test complete triggers data logging stop",
+        "x": 950,
+        "y": 1580,
+        "wires": []
+    },
+    {
+        "id": "db7d84da82eb83ee",
+        "type": "link out",
+        "z": "0e1f3206f48adf14",
+        "g": "5258e746159f915c",
+        "name": "Test complete_out",
+        "mode": "link",
+        "links": [
+            "ef7e4a5d1320bf80",
+            "375e0ce60e51a32b",
+            "be2a05249dece704"
+        ],
+        "x": 855,
+        "y": 1580,
+        "wires": []
+    },
+    {
+        "id": "e493350636115e64",
+        "type": "function",
+        "z": "0e1f3206f48adf14",
+        "g": "8523ba6f048159f6",
+        "name": "Process log tag read",
+        "func": "// Function Node: Log Tag Retrieve\n// Converts a comma-separated string into an array of log tag names\n\nif (!msg.payload || typeof msg.payload !== 'string') {\n    node.warn(\"No valid input string received\");\n    return null;\n}\n\ntry {\n    // Convert CSV header into an array of log tag names\n    let logTags = msg.payload.split(',').map(tag => tag.trim());\n\n    // Store log tags in flow context\n    flow.set(\"logTags\", logTags);\n\n    // Pass through log tags\n    msg.payload = logTags;\n} catch (err) {\n    node.warn(\"Error processing input string: \" + err.message);\n    msg.payload = [];\n}\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 860,
+        "wires": [
+            [
+                "4e7075779e249d2a",
+                "d835db8fa2b703e5",
+                "44769ace05fdd10b"
+            ]
+        ]
+    },
+    {
+        "id": "4e7075779e249d2a",
+        "type": "debug",
+        "z": "0e1f3206f48adf14",
+        "g": "8523ba6f048159f6",
+        "name": "Log tag from CSV",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 430,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "edc71474186d9603",
+        "type": "file in",
+        "z": "0e1f3206f48adf14",
+        "g": "8523ba6f048159f6",
+        "name": "Read log tag csv file",
+        "filename": "/app/files/Log Tag.csv",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "utf8",
+        "allProps": false,
+        "x": 220,
+        "y": 860,
+        "wires": [
+            [
+                "e493350636115e64"
+            ]
+        ]
+    },
+    {
+        "id": "9e18a41a3b8642c5",
+        "type": "switch",
+        "z": "0e1f3206f48adf14",
+        "g": "35a088b350aa3972",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Running",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Stopped",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Test Completed",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Test Not Started",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 4,
+        "x": 1450,
+        "y": 620,
+        "wires": [
+            [
+                "65208708e4372bc8",
+                "a5039fb22db64485",
+                "dde994293b55d732"
+            ],
+            [
+                "65208708e4372bc8",
+                "943a5030140a9a9c",
+                "a5039fb22db64485"
+            ],
+            [
+                "65208708e4372bc8",
+                "a5039fb22db64485"
+            ],
+            [
+                "65208708e4372bc8",
+                "a5039fb22db64485"
+            ]
+        ]
+    },
+    {
+        "id": "943a5030140a9a9c",
+        "type": "debug",
+        "z": "0e1f3206f48adf14",
+        "g": "35a088b350aa3972",
+        "name": "debug 6",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1620,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "dde994293b55d732",
+        "type": "debug",
+        "z": "0e1f3206f48adf14",
+        "g": "35a088b350aa3972",
+        "name": "debug 5",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1620,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "076f9c6f669d462b",
+        "type": "inject",
+        "z": "0e1f3206f48adf14",
+        "g": "35a088b350aa3972",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "Test Complete",
+        "payloadType": "str",
+        "x": 1260,
+        "y": 700,
+        "wires": [
+            [
+                "9e18a41a3b8642c5"
+            ]
+        ]
+    },
+    {
+        "id": "a1a88e13dcb6c08c",
+        "type": "function",
+        "z": "0e1f3206f48adf14",
+        "g": "8523ba6f048159f6",
+        "name": "Convert object to array",
+        "func": "// Function Node: Object to Array Converter\n// Converts an object into an array containing a single object\n\nif (typeof msg.payload !== \"object\" || msg.payload === null) {\n    node.warn(\"Payload is not a valid object\");\n    return null;\n}\n\nlet utcDate = new Date(msg.payload.timestamp);\nlet estDate = utcDate.toLocaleString(\"en-US\", {\n    timeZone: \"America/New_York\"\n\n})\nmsg.payload.timestamp = estDate;\n// Wrap the object inside an array\nmsg.payload = [msg.payload];\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1280,
+        "y": 960,
+        "wires": [
+            [
+                "15100a34803ec0b4"
+            ]
+        ]
+    },
+    {
+        "id": "ef7e4a5d1320bf80",
+        "type": "link in",
+        "z": "0e1f3206f48adf14",
+        "g": "35a088b350aa3972",
+        "name": "Test complete_in",
+        "links": [
+            "db7d84da82eb83ee"
+        ],
+        "x": 1325,
+        "y": 660,
+        "wires": [
+            [
+                "9e18a41a3b8642c5"
+            ]
+        ]
+    },
+    {
+        "id": "7359636993bb200e",
+        "type": "link out",
+        "z": "0e1f3206f48adf14",
+        "g": "e1b6d5ba8d3de0b8",
+        "name": "Test start_output",
+        "mode": "link",
+        "links": [
+            "bfa18773572a7fef",
+            "e82e6a879dd35783",
+            "3a2e5ae01db4a464",
+            "75e9b4cbb923d25a"
+        ],
+        "x": 745,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "bfa18773572a7fef",
+        "type": "link in",
+        "z": "0e1f3206f48adf14",
+        "g": "5258e746159f915c",
+        "name": "link in 2",
+        "links": [
+            "7359636993bb200e"
+        ],
+        "x": 75,
+        "y": 1520,
+        "wires": [
+            [
+                "2a7dda672fc3e645"
+            ]
+        ]
+    },
+    {
+        "id": "c955b39b856d6b12",
+        "type": "comment",
+        "z": "0e1f3206f48adf14",
+        "g": "e1b6d5ba8d3de0b8",
+        "name": "Test start",
+        "info": "",
+        "x": 580,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "2c3d63ee4f877c5a",
+        "type": "comment",
+        "z": "0e1f3206f48adf14",
+        "g": "35a088b350aa3972",
+        "name": "Test stand status indication",
+        "info": "",
+        "x": 1270,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "526e1843558ad752",
+        "type": "link in",
+        "z": "0e1f3206f48adf14",
+        "g": "35a088b350aa3972",
+        "name": "Test stop_in",
+        "links": [
+            "ad1436e2f7b892fd"
+        ],
+        "x": 1325,
+        "y": 620,
+        "wires": [
+            [
+                "9e18a41a3b8642c5"
+            ]
+        ]
+    },
+    {
+        "id": "ad1436e2f7b892fd",
+        "type": "link out",
+        "z": "0e1f3206f48adf14",
+        "g": "525f6434f47c15f1",
+        "name": "Test stop_out",
+        "mode": "link",
+        "links": [
+            "526e1843558ad752",
+            "5811aec5a8ea97c9",
+            "a28627b538e4350e",
+            "601c184cc8cd4fe2"
+        ],
+        "x": 1185,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "87476d790eb1dfab",
+        "type": "inject",
+        "z": "0e1f3206f48adf14",
+        "g": "525f6434f47c15f1",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "Stopped",
+        "payloadType": "str",
+        "x": 1000,
+        "y": 100,
+        "wires": [
+            [
+                "ad1436e2f7b892fd"
+            ]
+        ]
+    },
+    {
+        "id": "e82e6a879dd35783",
+        "type": "link in",
+        "z": "0e1f3206f48adf14",
+        "g": "35a088b350aa3972",
+        "name": "Test start_input",
+        "links": [
+            "7359636993bb200e"
+        ],
+        "x": 1325,
+        "y": 580,
+        "wires": [
+            [
+                "9e18a41a3b8642c5"
+            ]
+        ]
+    },
+    {
+        "id": "29d0ac5a03343b5a",
+        "type": "comment",
+        "z": "0e1f3206f48adf14",
+        "g": "35a088b350aa3972",
+        "name": "Test start",
+        "info": "",
+        "x": 1230,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "cb949aacedf8b399",
+        "type": "comment",
+        "z": "0e1f3206f48adf14",
+        "g": "35a088b350aa3972",
+        "name": "Test stop",
+        "info": "",
+        "x": 1230,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "23e13ab57ea9677a",
+        "type": "comment",
+        "z": "0e1f3206f48adf14",
+        "g": "35a088b350aa3972",
+        "name": "Test complete",
+        "info": "",
+        "x": 1240,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "9aa23de8df763ac7",
+        "type": "function",
+        "z": "0e1f3206f48adf14",
+        "g": "8523ba6f048159f6",
+        "name": "Retrieve test step",
+        "func": "msg.payload = flow.get(\"testStep\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 1080,
+        "wires": [
+            [
+                "24805c900167c968",
+                "fb1edbf186530db5"
+            ]
+        ]
+    },
+    {
+        "id": "fb1edbf186530db5",
+        "type": "debug",
+        "z": "0e1f3206f48adf14",
+        "g": "8523ba6f048159f6",
+        "name": "debug 7",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 840,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "15100a34803ec0b4",
+        "type": "function",
+        "z": "0e1f3206f48adf14",
+        "g": "8523ba6f048159f6",
+        "name": "Tranverse",
+        "func": "// Ensure payload is an array with at least one object\nif (!Array.isArray(msg.payload) || msg.payload.length === 0) {\n    node.warn(\"Invalid payload format\");\n    return null;\n}\n\n// Take the latest data row (assuming the first row is the most recent)\nlet dataRow = msg.payload[0];\n\n// Convert object keys to a vertical table format\nlet verticalTable = Object.keys(dataRow).map(key => {\n    return { \"Parameter\": key, \"Value\": dataRow[key] };\n});\n\n// Send transformed data to ui_table\nmsg.payload = verticalTable;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1460,
+        "y": 960,
+        "wires": [
+            [
+                "81b6eb9b5e5dcf0a"
+            ]
+        ]
+    },
+    {
+        "id": "2f255b937f973673",
+        "type": "function",
+        "z": "0e1f3206f48adf14",
+        "g": "32776a10d46d718d",
+        "name": "modPerms_read",
+        "func": "msg.payload = {\n    \"fc\": 1,  // Function Code for reading coils\n    \"unitid\": 1,  // PLC Modbus ID\n    \"address\": 0,\n    \"quantity\": 1\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 220,
+        "y": 380,
+        "wires": [
+            [
+                "c71dee702c83ad9e"
+            ]
+        ]
+    },
+    {
+        "id": "c2e94988fc480afa",
+        "type": "function",
+        "z": "0e1f3206f48adf14",
+        "g": "32776a10d46d718d",
+        "name": "Get permStatus",
+        "func": "flow.set(\"permStatus\", msg.payload[0]);\n//flow.set = msg.payload[0] ? \"green\" : \"red\";  // Convert true → \"green\", false → \"red\"\nmsg.payload = flow.get(\"permStatus\") ? \"green\" : \"red\";\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 380,
+        "wires": [
+            [
+                "31d64b3b3f71f090"
+            ]
+        ]
+    },
+    {
+        "id": "2c588e2f889c9d50",
+        "type": "function",
+        "z": "0e1f3206f48adf14",
+        "name": "function 6",
+        "func": "msg.payload = {\n    \"fc\": 5,        // Function Code 5: Write Single Coil\n    \"unitid\": 1,    // Modbus Slave ID (usually 1)\n    \"address\": 2,   // Zero-based Modbus address (000003 = 2)\n    \"value\": true,  // Set Air_good to false\n    \"quantity\": 1\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 2720,
+        "wires": [
+            [
+                "857bde27da07ce5f"
+            ]
+        ]
+    },
+    {
+        "id": "09759dcfccf69f88",
+        "type": "function",
+        "z": "0e1f3206f48adf14",
+        "name": "function 7",
+        "func": "msg.payload = {\n    \"fc\": 5,        // Function Code 5: Write Single Coil\n    \"unitid\": 1,    // Modbus Slave ID (usually 1)\n    \"address\": 2,   // Zero-based Modbus address (000003 = 2)\n    \"value\": false,  // Set Air_good to false\n    \"quantity\": 1\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 2820,
+        "wires": [
+            [
+                "857bde27da07ce5f"
+            ]
+        ]
+    },
+    {
+        "id": "968c5c6feb1e2ed1",
+        "type": "exec",
+        "z": "0e1f3206f48adf14",
+        "g": "ad5ef647cb4ea746",
+        "command": "powershell -command \"& {Add-Type -AssemblyName System.Windows.Forms; $f = New-Object System.Windows.Forms.OpenFileDialog; $f.ShowDialog() | Out-Null; Write-Output $f.FileName}\"",
+        "addpay": "payload",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "File path picker",
+        "x": 340,
+        "y": 2560,
+        "wires": [
+            [
+                "65f4a6d329a20c56"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "65f4a6d329a20c56",
+        "type": "function",
+        "z": "0e1f3206f48adf14",
+        "g": "ad5ef647cb4ea746",
+        "name": "function 8",
+        "func": "// Check if the user selected a file, otherwise set default text\nlet filePath = msg.payload.trim();\nif (filePath === \"\") {\n    filePath = \"No file selected\";\n}\n\n// Store the file path as a flow variable\nflow.set(\"test_sequence_path\", filePath);\n\n// Send the file path as the output\nmsg.payload = filePath;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 2560,
+        "wires": [
+            [
+                "c64bdfa07c836a68"
+            ]
+        ]
+    },
+    {
+        "id": "d835db8fa2b703e5",
+        "type": "function",
+        "z": "0e1f3206f48adf14",
+        "g": "8523ba6f048159f6",
+        "name": "PV_tag_compile",
+        "func": "// Retrieve logTags array from flow context\nlet logTags = flow.get(\"logTags\") || [];\n\n// Ensure logTags is an array with values\nif (!Array.isArray(logTags) || logTags.length === 0) {\n    msg.options = [];  // Return an empty array if no valid data\n    return msg;\n}\n\n// Create an array of dropdown options with key-value pairs (e.g., { \"TECell_PV\": \"TECell_PV\" })\nlet dropdownOptions = logTags.map(tag => ({\n    [tag]: tag  // Dynamic key-value pair\n}));\n\n// Assign the array to msg.options\nmsg.options = dropdownOptions;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 820,
+        "wires": [
+            [
+                "a6d1d00bbd920ed1"
+            ]
+        ]
+    },
+    {
+        "id": "aa176dc0751837e6",
+        "type": "function",
+        "z": "0e1f3206f48adf14",
+        "g": "8523ba6f048159f6",
+        "name": "History data",
+        "func": "// Retrieve historical data storage or initialize if empty\nlet history = flow.get(\"modbus_history\") || {};\n\n// Get the current Modbus Data PV\nlet modbusData = flow.get(\"modbus_data_PV\") || {};\n\n// Get the current timestamp\nlet timestamp = new Date().getTime();\n\n// Loop through Modbus Data PV and store each parameter over time\nObject.keys(modbusData).forEach(param => {\n    if (!history[param]) {\n        history[param] = []; // Initialize array for each parameter\n    }\n\n    // Add new data point (timestamp, value)\n    history[param].push({ x: timestamp, y: modbusData[param] });\n\n    // Keep only the last 15 minutes of data (900,000 ms)\n    history[param] = history[param].filter(point => timestamp - point.x <= 9000);\n});\n\n// Save updated history in flow memory\nflow.set(\"modbus_history\", history);\nmsg.payload = history;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1250,
+        "y": 1040,
+        "wires": [
+            [
+                "92177eb81bdef385"
+            ]
+        ]
+    },
+    {
+        "id": "92177eb81bdef385",
+        "type": "function",
+        "z": "0e1f3206f48adf14",
+        "g": "8523ba6f048159f6",
+        "name": "Data for chart",
+        "func": "// Retrieve selected parameter from dropdown\n//let selectedParam = msg.payload || \"TECell_PV\";\nlet selectedParam = flow.get(\"chartLegend\") || \"TECell_PV\";\n// Retrieve historical data\nlet history = flow.get(\"modbus_history\") || {};\n\nlet chart = {\n    \"series\": [selectedParam],  // Modify this if you have multiple series\n    \"data\": [history[selectedParam] || []],  // Wrap inputData in an array\n    \"labels\": [\"\"]\n};\n\n// Assign the formatted object to msg.payload\nmsg.payload = [chart];\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1440,
+        "y": 1040,
+        "wires": [
+            [
+                "c01aa3cf6b0ca42b"
+            ]
+        ]
+    },
+    {
+        "id": "0acf4c3f1837eb3e",
+        "type": "function",
+        "z": "0e1f3206f48adf14",
+        "g": "8523ba6f048159f6",
+        "name": "chartLegend",
+        "func": "flow.set(\"chartLegend\", msg.payload)\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1050,
+        "y": 820,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "49263ca4933dbd63",
+        "type": "link out",
+        "z": "0e1f3206f48adf14",
+        "g": "1c1f20c3ada10fc1",
+        "name": "After Repeat 1s inject",
+        "mode": "link",
+        "links": [
+            "214a8a9f249e5677",
+            "c7de23c01c2709f7"
+        ],
+        "x": 385,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "1adcfbfd7586ce6b",
+        "type": "comment",
+        "z": "0e1f3206f48adf14",
+        "g": "5258e746159f915c",
+        "name": "Ready to send setpoints",
+        "info": "Process test script and setpoints",
+        "x": 160,
+        "y": 1480,
+        "wires": []
+    },
+    {
+        "id": "f8e57f19654fa8e7",
+        "type": "inject",
+        "z": "0e1f3206f48adf14",
+        "g": "1c1f20c3ada10fc1",
+        "name": "Single inject after deploy",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.1",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 170,
+        "y": 120,
+        "wires": [
+            [
+                "1ee5227dd94e166a",
+                "df1fd79072832199"
+            ]
+        ]
+    },
+    {
+        "id": "e40c571c4e7e87b2",
+        "type": "link out",
+        "z": "0e1f3206f48adf14",
+        "g": "1c1f20c3ada10fc1",
+        "name": "Single inject after deploy_out",
+        "mode": "link",
+        "links": [
+            "561af053f2a01b14",
+            "79825c3787a4c650",
+            "f9d70936d5ff8c9b"
+        ],
+        "x": 355,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "561af053f2a01b14",
+        "type": "link in",
+        "z": "0e1f3206f48adf14",
+        "g": "8523ba6f048159f6",
+        "name": "Single inject after deploy_in",
+        "links": [
+            "e40c571c4e7e87b2"
+        ],
+        "x": 85,
+        "y": 860,
+        "wires": [
+            [
+                "edc71474186d9603"
+            ]
+        ]
+    },
+    {
+        "id": "3ca569c54e5ebb61",
+        "type": "function",
+        "z": "0e1f3206f48adf14",
+        "g": "06c6cdf71851940d",
+        "name": "Get flow data",
+        "func": "msg.payload = flow.get(\"modbus_data_PV\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 1820,
+        "wires": [
+            [
+                "6d065f0ebbf0e7aa"
+            ]
+        ]
+    },
+    {
+        "id": "3a2e5ae01db4a464",
+        "type": "link in",
+        "z": "0e1f3206f48adf14",
+        "g": "06c6cdf71851940d",
+        "name": "dataLog_start",
+        "links": [
+            "7359636993bb200e"
+        ],
+        "x": 85,
+        "y": 1820,
+        "wires": [
+            [
+                "562e1b5e88637fd1"
+            ]
+        ]
+    },
+    {
+        "id": "a54b88ebdc027299",
+        "type": "comment",
+        "z": "0e1f3206f48adf14",
+        "g": "06c6cdf71851940d",
+        "name": "Data logging management",
+        "info": "",
+        "x": 170,
+        "y": 1780,
+        "wires": []
+    },
+    {
+        "id": "0a90f31996d9f9fb",
+        "type": "comment",
+        "z": "0e1f3206f48adf14",
+        "g": "8523ba6f048159f6",
+        "name": "Read logTags and Display",
+        "info": "",
+        "x": 190,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "fa4ba3044dddabf0",
+        "type": "comment",
+        "z": "0e1f3206f48adf14",
+        "g": "ad5ef647cb4ea746",
+        "name": "Test script select",
+        "info": "",
+        "x": 140,
+        "y": 2520,
+        "wires": []
+    },
+    {
+        "id": "csv_input",
+        "type": "file in",
+        "z": "0e1f3206f48adf14",
+        "g": "783a604ad685b5f5",
+        "name": "Read CSV File",
+        "filename": "/app/files/PEM1_Extended.csv",
+        "filenameType": "str",
+        "format": "utf8",
+        "encoding": "utf8",
+        "allProps": false,
+        "x": 260,
+        "y": 540,
+        "wires": [
+            [
+                "36c18d3f22455110",
+                "csv_parser"
+            ]
+        ]
+    },
+    {
+        "id": "csv_parser",
+        "type": "csv",
+        "z": "0e1f3206f48adf14",
+        "g": "783a604ad685b5f5",
+        "name": "Parse CSV",
+        "spec": "rfc",
+        "sep": ",",
+        "hdrin": true,
+        "multi": "mult",
+        "temp": "",
+        "skip": 0,
+        "strings": true,
+        "include_empty_strings": true,
+        "include_null_values": true,
+        "x": 460,
+        "y": 540,
+        "wires": [
+            [
+                "b0b0082253400cef",
+                "filter_modbus_tags"
+            ]
+        ]
+    },
+    {
+        "id": "filter_modbus_tags",
+        "type": "function",
+        "z": "0e1f3206f48adf14",
+        "g": "783a604ad685b5f5",
+        "name": "Filter Modbus Tags",
+        "func": "// Ensure msg.payload is an array\nif (!Array.isArray(msg.payload)) {\n    node.error(\"Invalid data: Expected an array, but got \" + typeof msg.payload);\n    return;\n}\n\n// Store incoming payload as allTags\nlet allTags = msg.payload;\n\n// Filter relevant columns\nlet validTags = allTags.map(tag => ({\n    \"Tag Name\": tag[\"Tag Name\"],\n    \"MODBUS Start Address\": tag[\"MODBUS Start Address\"],\n    \"MODBUS End Address\": tag[\"MODBUS End Address\"],\n    \"Data Type\": tag[\"Data Type\"]\n})).filter(tag => tag[\"MODBUS Start Address\"] && !isNaN(parseInt(tag[\"MODBUS Start Address\"])));\n\n// Sort by Modbus Start Address\nvalidTags.sort((a, b) => parseInt(a[\"MODBUS Start Address\"]) - parseInt(b[\"MODBUS Start Address\"]));\n\n// Separate modbus types\nlet modCoil = [];\nlet modDisInput = [];\nlet modInputReg = [];\nlet modHoldReg = [];\n\n// Filter based on Modbus Address Range\nvalidTags.forEach(tag => {\n    let address = parseInt(tag[\"MODBUS Start Address\"]);\n    if (address >= 1 && address <= 99999) {\n        modCoil.push(tag);\n    } else if (address >= 100001 && address <= 199999) {\n        modDisInput.push(tag);\n    } else if (address >= 300001 && address <= 399999) {\n        modInputReg.push(tag);\n    } else if (address >= 400001 && address <= 499999) {\n        modHoldReg.push(tag);\n    }\n});\n\n// Store as flow variables\nflow.set(\"modCoil\", modCoil);\nflow.set(\"modDisInput\", modDisInput);\nflow.set(\"modInputReg\", modInputReg);\nflow.set(\"modHoldReg\", modHoldReg);\n\n// Debug logs\n//node.warn(`Stored Coil Tags: ${JSON.stringify(modCoil)}`);\n//node.warn(`Stored Discrete Input Tags: ${JSON.stringify(modDisInput)}`);\n//node.warn(`Stored Input Register Tags: ${JSON.stringify(modInputReg)}`);\n//node.warn(`Stored Holding Register Tags: ${JSON.stringify(modHoldReg)}`);\n\n// Send outputs separately using node.send()\nreturn [\n    { payload: validTags },  // Output 1: Valid Tags Array\n    { payload: modCoil },      // Output 2: Coil Tags\n    { payload: modDisInput },  // Output 3: Discrete Input Tags\n    { payload: modInputReg },  // Output 4: Input Register Tags\n    { payload: modHoldReg }    // Output 5: Holding Register Tags\n];\n",
+        "outputs": 5,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 540,
+        "wires": [
+            [
+                "debug_output"
+            ],
+            [
+                "ba78053e5aaa7eed"
+            ],
+            [],
+            [],
+            [
+                "023cde579789cf6c"
+            ]
+        ]
+    },
+    {
+        "id": "debug_output",
+        "type": "debug",
+        "z": "0e1f3206f48adf14",
+        "g": "783a604ad685b5f5",
+        "name": "Debug Coil & Float Tags",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 970,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "f76507ef24e89f5d",
+        "type": "inject",
+        "z": "0e1f3206f48adf14",
+        "g": "783a604ad685b5f5",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 480,
+        "wires": [
+            [
+                "csv_input"
+            ]
+        ]
+    },
+    {
+        "id": "b0b0082253400cef",
+        "type": "debug",
+        "z": "0e1f3206f48adf14",
+        "g": "783a604ad685b5f5",
+        "name": "debug 8",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 660,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "36c18d3f22455110",
+        "type": "debug",
+        "z": "0e1f3206f48adf14",
+        "g": "783a604ad685b5f5",
+        "name": "debug 14",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 420,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "ba78053e5aaa7eed",
+        "type": "debug",
+        "z": "0e1f3206f48adf14",
+        "g": "783a604ad685b5f5",
+        "name": "debug 15",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 940,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "023cde579789cf6c",
+        "type": "debug",
+        "z": "0e1f3206f48adf14",
+        "g": "783a604ad685b5f5",
+        "name": "debug 16",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 940,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "6de10b54dda585b9",
+        "type": "function",
+        "z": "0e1f3206f48adf14",
+        "g": "b5c880e558e89abe",
+        "name": "modPerms_read",
+        "func": "// Retrieve stored coil tags\nlet modCoil = flow.get(\"modCoil\") || [];\n\n// Ensure there are coil tags to read\nif (modCoil.length === 0) {\n    //node.warn(\"No coil tags found to read.\");\n    return null;\n}\n\n// Get the starting Modbus address (first coil)\nlet startAddress = parseInt(modCoil[0][\"MODBUS Start Address\"]) - 1; // Convert to zero-based\nlet quantity = modCoil.length; // Read all coils in a single request\n\n// Create Modbus request payload\nmsg.payload = {\n    \"fc\": 1,  // Function Code for reading coils\n    \"unitid\": 1,  // PLC Modbus ID\n    \"address\": startAddress,\n    \"quantity\": quantity\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1180,
+        "y": 380,
+        "wires": [
+            [
+                "9d6d4a50ba28b501"
+            ]
+        ]
+    },
+    {
+        "id": "33456f72e3f84419",
+        "type": "function",
+        "z": "0e1f3206f48adf14",
+        "g": "b5c880e558e89abe",
+        "name": "Process Coil Response",
+        "func": "// Retrieve coil tags for mapping\nlet modCoil = flow.get(\"modCoil\") || [];\nlet coilStatus = msg.payload || [];\n\n// Ensure we have valid data\nif (coilStatus.length < modCoil.length) {\n    node.warn(\"Received fewer coil values than expected.\");\n    return null;\n}\n\n// Extract only the required coil statuses\nlet modbusCoilStatus = {};\nfor (let i = 0; i < modCoil.length; i++) {\n    modbusCoilStatus[modCoil[i][\"Tag Name\"]] = coilStatus[i]; // Map to tag name\n}\n\n// Store coil statuses in flow variable\nflow.set(\"modbusCoilStatus\", modbusCoilStatus);\n\n// Debug log\n//node.warn(`Updated Coil Status: ${JSON.stringify(modbusCoilStatus)}`);\n\nreturn { payload: modbusCoilStatus };\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1630,
+        "y": 380,
+        "wires": [
+            [
+                "18ecbf3af9f09387"
+            ]
+        ]
+    },
+    {
+        "id": "2e2281a7ce0eced6",
+        "type": "comment",
+        "z": "0e1f3206f48adf14",
+        "g": "b5c880e558e89abe",
+        "name": "Read coil status from PLC and display",
+        "info": "",
+        "x": 1150,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "214a8a9f249e5677",
+        "type": "link in",
+        "z": "0e1f3206f48adf14",
+        "g": "32776a10d46d718d",
+        "name": "link in 1",
+        "links": [
+            "49263ca4933dbd63"
+        ],
+        "x": 85,
+        "y": 380,
+        "wires": [
+            [
+                "2f255b937f973673"
+            ]
+        ]
+    },
+    {
+        "id": "c7de23c01c2709f7",
+        "type": "link in",
+        "z": "0e1f3206f48adf14",
+        "g": "b5c880e558e89abe",
+        "name": "link in 3",
+        "links": [
+            "49263ca4933dbd63"
+        ],
+        "x": 1035,
+        "y": 380,
+        "wires": [
+            [
+                "6de10b54dda585b9"
+            ]
+        ]
+    },
+    {
+        "id": "79825c3787a4c650",
+        "type": "link in",
+        "z": "0e1f3206f48adf14",
+        "g": "35a088b350aa3972",
+        "name": "link in 4",
+        "links": [
+            "e40c571c4e7e87b2"
+        ],
+        "x": 1205,
+        "y": 540,
+        "wires": [
+            [
+                "507551d81d7cb8e2"
+            ]
+        ]
+    },
+    {
+        "id": "507551d81d7cb8e2",
+        "type": "function",
+        "z": "0e1f3206f48adf14",
+        "g": "35a088b350aa3972",
+        "name": "Initial",
+        "func": "msg.payload = \"Test not started\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1290,
+        "y": 540,
+        "wires": [
+            [
+                "9e18a41a3b8642c5"
+            ]
+        ]
+    },
+    {
+        "id": "f9d70936d5ff8c9b",
+        "type": "link in",
+        "z": "0e1f3206f48adf14",
+        "g": "783a604ad685b5f5",
+        "name": "Single inject after deploy_in",
+        "links": [
+            "e40c571c4e7e87b2"
+        ],
+        "x": 135,
+        "y": 540,
+        "wires": [
+            [
+                "csv_input"
+            ]
+        ]
+    },
+    {
+        "id": "510b431ad3e38e97",
+        "type": "comment",
+        "z": "0e1f3206f48adf14",
+        "g": "783a604ad685b5f5",
+        "name": "Read extended tag databse from PLC code",
+        "info": "Change path when PLC program changes",
+        "x": 420,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "562e1b5e88637fd1",
+        "type": "trigger",
+        "z": "0e1f3206f48adf14",
+        "g": "06c6cdf71851940d",
+        "name": "Start test pulse",
+        "op1": "1",
+        "op2": "0",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "-1",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "Stop data logging",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 380,
+        "y": 1820,
+        "wires": [
+            [
+                "3ca569c54e5ebb61",
+                "94f03e995178a385"
+            ]
+        ]
+    },
+    {
+        "id": "375e0ce60e51a32b",
+        "type": "link in",
+        "z": "0e1f3206f48adf14",
+        "g": "06c6cdf71851940d",
+        "name": "Test complete_in",
+        "links": [
+            "db7d84da82eb83ee"
+        ],
+        "x": 85,
+        "y": 1880,
+        "wires": [
+            [
+                "a1bf5e81cfcf58e3"
+            ]
+        ],
+        "info": "Stop data logging"
+    },
+    {
+        "id": "d00973e02ef2d64c",
+        "type": "comment",
+        "z": "0e1f3206f48adf14",
+        "g": "06c6cdf71851940d",
+        "name": "Stop data logging after test complete",
+        "info": "",
+        "x": 420,
+        "y": 1880,
+        "wires": []
+    },
+    {
+        "id": "b6f7853f398c93d3",
+        "type": "link in",
+        "z": "0e1f3206f48adf14",
+        "g": "5258e746159f915c",
+        "name": "Deploy pulse",
+        "links": [
+            "94f03e995178a385"
+        ],
+        "x": 75,
+        "y": 1580,
+        "wires": [
+            [
+                "8ad41d8b3762ac44"
+            ]
+        ]
+    },
+    {
+        "id": "1fa25a2cb5e31ef6",
+        "type": "comment",
+        "z": "0e1f3206f48adf14",
+        "g": "32776a10d46d718d",
+        "name": "Read permmisive status",
+        "info": "",
+        "x": 180,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "6c1ca61ccb0e9fe7",
+        "type": "comment",
+        "z": "0e1f3206f48adf14",
+        "g": "8523ba6f048159f6",
+        "name": "Pulse for data table and trend chart displaying",
+        "info": "",
+        "x": 530,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "a1bf5e81cfcf58e3",
+        "type": "function",
+        "z": "0e1f3206f48adf14",
+        "g": "06c6cdf71851940d",
+        "name": "Stop logging",
+        "func": "msg.payload = \"Stop data logging\";\nflow.set(\"testStep\", \"Test Completed\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 190,
+        "y": 1880,
+        "wires": [
+            [
+                "562e1b5e88637fd1"
+            ]
+        ]
+    },
+    {
+        "id": "5811aec5a8ea97c9",
+        "type": "link in",
+        "z": "0e1f3206f48adf14",
+        "g": "06c6cdf71851940d",
+        "name": "Test stop_in",
+        "links": [
+            "ad1436e2f7b892fd"
+        ],
+        "x": 85,
+        "y": 1920,
+        "wires": [
+            [
+                "a1bf5e81cfcf58e3"
+            ]
+        ]
+    },
+    {
+        "id": "8ad41d8b3762ac44",
+        "type": "function",
+        "z": "0e1f3206f48adf14",
+        "g": "5258e746159f915c",
+        "name": "permStatus check pulse",
+        "func": "// Retrieve permissive status from flow context\nlet permStatus = flow.get(\"permStatus\");\n\n// Check permissive status\nif (permStatus === true) {\n    return null;  // If true, return null\n} else {\n    msg.payload = \"Stop test\";\n    return msg;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 1580,
+        "wires": [
+            [
+                "5b8cf5d0895f5826"
+            ]
+        ]
+    },
+    {
+        "id": "94f03e995178a385",
+        "type": "link out",
+        "z": "0e1f3206f48adf14",
+        "g": "06c6cdf71851940d",
+        "name": "Pulse after test start",
+        "mode": "link",
+        "links": [
+            "b6f7853f398c93d3"
+        ],
+        "x": 535,
+        "y": 1780,
+        "wires": []
+    },
+    {
+        "id": "a28627b538e4350e",
+        "type": "link in",
+        "z": "0e1f3206f48adf14",
+        "g": "5258e746159f915c",
+        "name": "Test stop_in",
+        "links": [
+            "ad1436e2f7b892fd"
+        ],
+        "x": 75,
+        "y": 1640,
+        "wires": [
+            [
+                "ffaf214f88de0731"
+            ]
+        ]
+    },
+    {
+        "id": "3655c26dfb4896fd",
+        "type": "comment",
+        "z": "0e1f3206f48adf14",
+        "g": "5258e746159f915c",
+        "name": "Pulse after start",
+        "info": "1s pulse after hitting start button",
+        "x": 700,
+        "y": 1580,
+        "wires": []
+    },
+    {
+        "id": "ffaf214f88de0731",
+        "type": "function",
+        "z": "0e1f3206f48adf14",
+        "g": "5258e746159f915c",
+        "name": "Stop test",
+        "func": "flow.set(\"stopTest\", true);\nflow.set(\"testStep\", \"Stopped\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 180,
+        "y": 1640,
+        "wires": [
+            [
+                "1b3f23fa28e5b05a",
+                "33d09f0b8f4f9363"
+            ]
+        ]
+    },
+    {
+        "id": "d38f94132ffbf8d2",
+        "type": "comment",
+        "z": "0e1f3206f48adf14",
+        "g": "5258e746159f915c",
+        "name": "Hit ABORT",
+        "info": "",
+        "x": 340,
+        "y": 1640,
+        "wires": []
+    },
+    {
+        "id": "438e39b4aba09a68",
+        "type": "comment",
+        "z": "0e1f3206f48adf14",
+        "g": "06c6cdf71851940d",
+        "name": "Hit ABORT",
+        "info": "",
+        "x": 180,
+        "y": 1920,
+        "wires": []
+    },
+    {
+        "id": "5b8cf5d0895f5826",
+        "type": "debug",
+        "z": "0e1f3206f48adf14",
+        "g": "5258e746159f915c",
+        "name": "debug 11",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 520,
+        "y": 1640,
+        "wires": []
+    },
+    {
+        "id": "1ee5227dd94e166a",
+        "type": "function",
+        "z": "0e1f3206f48adf14",
+        "g": "1c1f20c3ada10fc1",
+        "name": "Define initial value",
+        "func": "flow.set(\"stopTest\", false);\nflow.set(\"test_sequence_path\", \"C: \\Users\\gonnk\\OneDrive - University of Delaware - o365\\Code\\Node - red\\Log Tag.csv\")\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 230,
+        "y": 160,
+        "wires": [
+            [
+                "e40c571c4e7e87b2"
+            ]
+        ]
+    },
+    {
+        "id": "63cb78ec39e736ad",
+        "type": "function",
+        "z": "0e1f3206f48adf14",
+        "d": true,
+        "g": "5b0cb2ad787928a3",
+        "name": "function 5",
+        "func": "flow.set(\"permStatus\", true);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 2780,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6c73cdcd6ef2299b",
+        "type": "function",
+        "z": "0e1f3206f48adf14",
+        "d": true,
+        "g": "5b0cb2ad787928a3",
+        "name": "function 9",
+        "func": "flow.set(\"permStatus\", false);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 2880,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f57cc15c0a1a5d40",
+        "type": "comment",
+        "z": "0e1f3206f48adf14",
+        "g": "8523ba6f048159f6",
+        "name": "Dropdown selection",
+        "info": "",
+        "x": 1230,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "b497c2e56b6b9439",
+        "type": "comment",
+        "z": "0e1f3206f48adf14",
+        "g": "1c1f20c3ada10fc1",
+        "name": "Initialize flow values",
+        "info": "",
+        "x": 230,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "3c9c30b75e7298df",
+        "type": "comment",
+        "z": "0e1f3206f48adf14",
+        "g": "5258e746159f915c",
+        "name": "Process Test Sequence",
+        "info": "",
+        "x": 160,
+        "y": 1420,
+        "wires": []
+    },
+    {
+        "id": "43dccf9fa5192358",
+        "type": "comment",
+        "z": "0e1f3206f48adf14",
+        "name": "On deploy",
+        "info": "",
+        "x": 100,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "33d09f0b8f4f9363",
+        "type": "function",
+        "z": "0e1f3206f48adf14",
+        "g": "5258e746159f915c",
+        "name": "Check Run stage 3",
+        "func": "let testStep = flow.get(\"testStep\");\nlet timeoutID = flow.get(\"timeoutID\"); // Retrieve the stored timeout ID\n\nfunction waitForRunStage() {\n    let modbusCoilStatus = flow.get(\"modbusCoilStatus\") || {};\n    let runPhase3 = modbusCoilStatus.Run_Phase_3;\n    if (testStep === \"Stopped\"){\n    } else{\n        if (runPhase3 === true) {\n            node.send(msg); // Proceed when Run_Phase_3 is 1\n        } else {\n            flow.set(\"testStep\", \"Wait for Run_Phase_3\");\n            timeoutID = setTimeout(waitForRunStage, 1000); // Check again after 1 second\n            flow.set(\"timeoutID\", timeoutID); // Store the timeout ID in flow\n        }\n    }\n}\n\n// Clear timeout if test is complete\nif (testStep === \"Stopped\") {\n    //flow.set(\"testStep\", \"Stopped\");\n    if (timeoutID) {\n        clearTimeout(timeoutID);\n        flow.set(\"timeoutID\", null); // Clear the timeout ID from flow\n    }\n} else {\n    waitForRunStage();\n}\n\nreturn null;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 1520,
+        "wires": [
+            [
+                "b2ffb736253c42ce"
+            ]
+        ]
+    },
+    {
+        "id": "a9957cd453f3c243",
+        "type": "inject",
+        "z": "0e1f3206f48adf14",
+        "d": true,
+        "g": "c0966926fbe2b256",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 3060,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5350718cde70e471",
+        "type": "function",
+        "z": "0e1f3206f48adf14",
+        "d": true,
+        "g": "c0966926fbe2b256",
+        "name": "function 1",
+        "func": "flow.set(\"permStatus\", true);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 3020,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2f9a24fc5a17ebd3",
+        "type": "function",
+        "z": "0e1f3206f48adf14",
+        "d": true,
+        "g": "c0966926fbe2b256",
+        "name": "function 2",
+        "func": "flow.set(\"permStatus\", false);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 3120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "78c83855ada6c722",
+        "type": "function",
+        "z": "0e1f3206f48adf14",
+        "g": "28d6aa434baf0184",
+        "name": "Single coil write",
+        "func": "// Retrieve the coil tag and setpoint from msg.payload\nlet { tag, setpoint } = msg.payload;\n\n// Retrieve Modbus coil address mapping from flow context\nlet modCoil = flow.get(\"modCoil\") || [];\n\n// Find the Modbus address for the given tag\nlet coilData = modCoil.find(entry => entry[\"Tag Name\"] === tag);\n\nif (!coilData) {\n    node.error(`Unknown coil tag: ${tag}`, msg);\n    return null;\n}\n\n// Convert Modbus address to 0-based integer\nlet address = parseInt(coilData[\"MODBUS Start Address\"], 10) - 1;\n\n// Construct Modbus write message\nmsg.payload = {\n    'unitId': 1,      // PLC Modbus Unit ID\n    'fc': 5,         // Function Code: Write Single Coil\n    'address': address, // Modbus coil address\n    'value': setpoint ? 1 : 0, // Convert boolean to 1 or 0\n    'quantity': 1\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 2220,
+        "wires": [
+            [
+                "2c986d49933c2836"
+            ]
+        ]
+    },
+    {
+        "id": "0c0d9dd093999933",
+        "type": "inject",
+        "z": "0e1f3206f48adf14",
+        "g": "28d6aa434baf0184",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 2120,
+        "wires": [
+            [
+                "ac0118475b89b5f1"
+            ]
+        ]
+    },
+    {
+        "id": "ac0118475b89b5f1",
+        "type": "function",
+        "z": "0e1f3206f48adf14",
+        "g": "28d6aa434baf0184",
+        "name": "HMI_start",
+        "func": "// First, send HMI_Start = true\nvar msg1 = { payload: { \"tag\": \"HMI_Start\", \"setpoint\": true } };\n\n// Create a second message to set it back to false after 1 second\nsetTimeout(() => {\n    var msg2 = { payload: { \"tag\": \"HMI_Start\", \"setpoint\": false } };\n    node.send(msg2);\n}, 1000);\n\n// Send the first message immediately\nreturn msg1;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 2160,
+        "wires": [
+            [
+                "78c83855ada6c722"
+            ]
+        ]
+    },
+    {
+        "id": "a2cabbb3e1741f6d",
+        "type": "function",
+        "z": "0e1f3206f48adf14",
+        "g": "28d6aa434baf0184",
+        "name": "HMI_stop",
+        "func": "// First, send HMI_Stop = true\nvar msg1 = { payload: { \"tag\": \"HMI_Stop\", \"setpoint\": true } };\n\n// Create a second message to set it back to false after 1 second\nsetTimeout(() => {\n    var msg2 = { payload: { \"tag\": \"HMI_Stop\", \"setpoint\": false } };\n    node.send(msg2);\n}, 1000);\n\n// Send the first message immediately\nreturn msg1;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 2240,
+        "wires": [
+            [
+                "78c83855ada6c722"
+            ]
+        ]
+    },
+    {
+        "id": "e3749f3cbe911471",
+        "type": "inject",
+        "z": "0e1f3206f48adf14",
+        "g": "28d6aa434baf0184",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 2200,
+        "wires": [
+            [
+                "a2cabbb3e1741f6d"
+            ]
+        ]
+    },
+    {
+        "id": "2a7dda672fc3e645",
+        "type": "function",
+        "z": "0e1f3206f48adf14",
+        "g": "5258e746159f915c",
+        "name": "Reset",
+        "func": "flow.set(\"testStep\", \"Test to start\");\nflow.set(\"stopTest\", false);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 150,
+        "y": 1520,
+        "wires": [
+            [
+                "33d09f0b8f4f9363"
+            ]
+        ]
+    },
+    {
+        "id": "601c184cc8cd4fe2",
+        "type": "link in",
+        "z": "0e1f3206f48adf14",
+        "g": "28d6aa434baf0184",
+        "name": "link in 6",
+        "links": [
+            "ad1436e2f7b892fd"
+        ],
+        "x": 195,
+        "y": 2240,
+        "wires": [
+            [
+                "a2cabbb3e1741f6d"
+            ]
+        ]
+    },
+    {
+        "id": "75e9b4cbb923d25a",
+        "type": "link in",
+        "z": "0e1f3206f48adf14",
+        "g": "28d6aa434baf0184",
+        "name": "link in 7",
+        "links": [
+            "7359636993bb200e"
+        ],
+        "x": 195,
+        "y": 2160,
+        "wires": [
+            [
+                "ac0118475b89b5f1"
+            ]
+        ]
+    },
+    {
+        "id": "09172f64744df3a1",
+        "type": "comment",
+        "z": "0e1f3206f48adf14",
+        "name": "Test script and data logging management",
+        "info": "",
+        "x": 200,
+        "y": 1340,
+        "wires": []
+    },
+    {
+        "id": "23ec338b4258df73",
+        "type": "inject",
+        "z": "0e1f3206f48adf14",
+        "g": "5258e746159f915c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 820,
+        "y": 1640,
+        "wires": [
+            [
+                "1b3f23fa28e5b05a"
+            ]
+        ]
+    },
+    {
+        "id": "e3b7e200883886f3",
+        "type": "debug",
+        "z": "0e1f3206f48adf14",
+        "g": "5258e746159f915c",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1210,
+        "y": 1600,
+        "wires": []
+    },
+    {
+        "id": "be2a05249dece704",
+        "type": "link in",
+        "z": "0e1f3206f48adf14",
+        "g": "28d6aa434baf0184",
+        "name": "Test complete_in",
+        "links": [
+            "db7d84da82eb83ee"
+        ],
+        "x": 195,
+        "y": 2280,
+        "wires": [
+            [
+                "a2cabbb3e1741f6d"
+            ]
+        ]
+    },
+    {
+        "id": "97a11857dbdbcc02",
+        "type": "comment",
+        "z": "0e1f3206f48adf14",
+        "g": "1c1f20c3ada10fc1",
+        "name": "On deploy",
+        "info": "",
+        "x": 100,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "4ae111cdbb1031f3",
+        "type": "comment",
+        "z": "0e1f3206f48adf14",
+        "g": "525f6434f47c15f1",
+        "name": "Test stop",
+        "info": "",
+        "x": 960,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "3c8fedb5d9abddb4",
+        "type": "function",
+        "z": "0e1f3206f48adf14",
+        "name": "function 3",
+        "func": "msg.payload = flow.get(\"test_sequence_path\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 240,
+        "wires": [
+            [
+                "32a7a6b5d8a09004"
+            ]
+        ]
+    },
+    {
+        "id": "e3bbab3dd63b01c3",
+        "type": "inject",
+        "z": "0e1f3206f48adf14",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 520,
+        "y": 240,
+        "wires": [
+            [
+                "3c8fedb5d9abddb4"
+            ]
+        ]
+    },
+    {
+        "id": "32a7a6b5d8a09004",
+        "type": "debug",
+        "z": "0e1f3206f48adf14",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 820,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "f44317d4497bf71b",
+        "type": "function",
+        "z": "0e1f3206f48adf14",
+        "name": "function 4",
+        "func": "\nlet timeoutID = flow.get(\"timeoutID\");\nfunction waitForRunStage() {\n    let msg = {payload: \"iloveyou\"};\n    node.send(msg);\n            timeoutID = setTimeout(waitForRunStage, 1000); // Check again after 1 second\n            flow.set(\"timeoutID\", timeoutID); // Store the timeout ID in flow\n}\n\n// Clear timeout if test is complete\nif (msg.payload === \"Stopped\") {\n    let msg = { payload: \"stopped\" };\n    node.send(msg);\n    if (timeoutID) {\n        clearTimeout(timeoutID);\n        flow.set(\"timeoutID\", null); // Clear the timeout ID from flow\n    }\n} else {\n    waitForRunStage();\n}\n\nreturn null;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1300,
+        "y": 2040,
+        "wires": [
+            [
+                "e773cbfb272f4438"
+            ]
+        ]
+    },
+    {
+        "id": "3e79b421e59d75a4",
+        "type": "inject",
+        "z": "0e1f3206f48adf14",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1080,
+        "y": 2040,
+        "wires": [
+            [
+                "f44317d4497bf71b"
+            ]
+        ]
+    },
+    {
+        "id": "214f91483d2da07a",
+        "type": "inject",
+        "z": "0e1f3206f48adf14",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "Stopped",
+        "payloadType": "str",
+        "x": 1100,
+        "y": 2100,
+        "wires": [
+            [
+                "f44317d4497bf71b"
+            ]
+        ]
+    },
+    {
+        "id": "e773cbfb272f4438",
+        "type": "debug",
+        "z": "0e1f3206f48adf14",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1460,
+        "y": 2040,
+        "wires": []
+    },
+    {
+        "id": "0e099c76dbbc4c4a",
+        "type": "function",
+        "z": "0e1f3206f48adf14",
+        "name": "Check Run stage 3",
+        "func": "let testStep = flow.get(\"testStep\");\nlet timeoutID = flow.get(\"timeoutID\"); // Retrieve the stored timeout ID\n\nfunction waitForRunStage() {\n    let modbusCoilStatus = flow.get(\"modbusCoilStatus\") || {};\n    let runPhase3 = modbusCoilStatus.Run_Phase_3;\n    if (testStep === \"Stopped\"){\n    } else{\n        if (runPhase3 === true) {\n            node.send(msg); // Proceed when Run_Phase_3 is 1\n        } else {\n            \n            timeoutID = setTimeout(waitForRunStage, 1000); // Check again after 1 second\n            flow.set(\"timeoutID\", timeoutID); // Store the timeout ID in flow\n            flow.set(\"testStep\", \"Wait for Run_Phase_3\");\n            node.send({payload:flow.get(\"testStep\")});\n        }\n    }\n}\n\n// Clear timeout if test is complete\nif (testStep === \"Stopped\") {\n    flow.set(\"testStep\", \"Stopped\");\n    if (timeoutID) {\n        clearTimeout(timeoutID);\n        flow.set(\"timeoutID\", null); // Clear the timeout ID from flow\n    }\n} else {\n    waitForRunStage();\n}\n\nreturn;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1390,
+        "y": 2220,
+        "wires": [
+            [
+                "71b2a99e1ff7fa14"
+            ]
+        ]
+    },
+    {
+        "id": "f27a64658337e0af",
+        "type": "function",
+        "z": "0e1f3206f48adf14",
+        "name": "Stop test",
+        "func": "flow.set(\"stopTest\", true);\nflow.set(\"testStep\", \"Stopped\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1160,
+        "y": 2300,
+        "wires": [
+            [
+                "0e099c76dbbc4c4a",
+                "f9bb1198bc2cef35"
+            ]
+        ]
+    },
+    {
+        "id": "6c6d97903090e84b",
+        "type": "inject",
+        "z": "0e1f3206f48adf14",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1000,
+        "y": 2220,
+        "wires": [
+            [
+                "f9d56b033f735a1f"
+            ]
+        ]
+    },
+    {
+        "id": "0670e46d081e1b1d",
+        "type": "inject",
+        "z": "0e1f3206f48adf14",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1000,
+        "y": 2300,
+        "wires": [
+            [
+                "f27a64658337e0af"
+            ]
+        ]
+    },
+    {
+        "id": "71b2a99e1ff7fa14",
+        "type": "debug",
+        "z": "0e1f3206f48adf14",
+        "name": "debug 9",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1560,
+        "y": 2220,
+        "wires": []
+    },
+    {
+        "id": "f9d56b033f735a1f",
+        "type": "function",
+        "z": "0e1f3206f48adf14",
+        "name": "Define initial value",
+        "func": "flow.set(\"stopTest\", false);\nflow.set(\"test_sequence_path\", \"C: \\Users\\gonnk\\OneDrive - University of Delaware - o365\\Code\\Node - red\\Log Tag.csv\")\nflow.set(\"testStep\",\"Test not started\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1170,
+        "y": 2220,
+        "wires": [
+            [
+                "0e099c76dbbc4c4a"
+            ]
+        ]
+    },
+    {
+        "id": "55778d34f90db1ff",
+        "type": "debug",
+        "z": "0e1f3206f48adf14",
+        "name": "debug 10",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1420,
+        "y": 2400,
+        "wires": []
+    },
+    {
+        "id": "f9bb1198bc2cef35",
+        "type": "function",
+        "z": "0e1f3206f48adf14",
+        "name": "function 10",
+        "func": "msg.payload = \"love you\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1250,
+        "y": 2400,
+        "wires": [
+            [
+                "55778d34f90db1ff"
+            ]
+        ]
+    },
+    {
+        "id": "df1fd79072832199",
+        "type": "trigger",
+        "z": "0e1f3206f48adf14",
+        "g": "1c1f20c3ada10fc1",
+        "name": "",
+        "op1": "1",
+        "op2": "0",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "-1",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 260,
+        "y": 60,
+        "wires": [
+            [
+                "49263ca4933dbd63"
+            ]
+        ]
+    },
+    {
+        "id": "08288dd29ba947c3",
+        "type": "modbus-response",
+        "z": "0e1f3206f48adf14",
+        "g": "5258e746159f915c",
+        "name": "",
+        "registerShowMax": 20,
+        "x": 1490,
+        "y": 1520,
+        "wires": []
+    },
+    {
+        "id": "82f361b8a87140d7",
+        "type": "modbus-response",
+        "z": "0e1f3206f48adf14",
+        "g": "8523ba6f048159f6",
+        "name": "",
+        "registerShowMax": 20,
+        "x": 910,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "136d669ae13cdcd0",
+        "type": "modbus-response",
+        "z": "0e1f3206f48adf14",
+        "name": "",
+        "registerShowMax": 20,
+        "x": 1090,
+        "y": 2720,
+        "wires": []
+    },
+    {
+        "id": "83e549ac89bad390",
+        "type": "modbus-response",
+        "z": "0e1f3206f48adf14",
+        "g": "b5c880e558e89abe",
+        "name": "",
+        "registerShowMax": 20,
+        "x": 1610,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "56b364be4f21de16",
+        "type": "modbus-flex-getter",
+        "z": "0e1f3206f48adf14",
+        "g": "8523ba6f048159f6",
+        "name": "",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": true,
+        "server": "f905b5f3395bcec1",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 850,
+        "y": 1000,
+        "wires": [
+            [
+                "82f361b8a87140d7",
+                "9c9c3c1ab31cb97b"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "c71dee702c83ad9e",
+        "type": "modbus-flex-getter",
+        "z": "0e1f3206f48adf14",
+        "g": "32776a10d46d718d",
+        "name": "",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": true,
+        "server": "f905b5f3395bcec1",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 430,
+        "y": 380,
+        "wires": [
+            [
+                "c2e94988fc480afa"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "9d6d4a50ba28b501",
+        "type": "modbus-flex-getter",
+        "z": "0e1f3206f48adf14",
+        "g": "b5c880e558e89abe",
+        "name": "",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": true,
+        "server": "f905b5f3395bcec1",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 1390,
+        "y": 380,
+        "wires": [
+            [
+                "83e549ac89bad390",
+                "33456f72e3f84419"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "bbfb835cba9a9b5a",
+        "type": "modbus-flex-write",
+        "z": "0e1f3206f48adf14",
+        "g": "5258e746159f915c",
+        "name": "",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "server": "f905b5f3395bcec1",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 1250,
+        "y": 1520,
+        "wires": [
+            [
+                "08288dd29ba947c3"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "857bde27da07ce5f",
+        "type": "modbus-flex-write",
+        "z": "0e1f3206f48adf14",
+        "name": "",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "server": "f905b5f3395bcec1",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 870,
+        "y": 2720,
+        "wires": [
+            [
+                "136d669ae13cdcd0"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "2c986d49933c2836",
+        "type": "modbus-flex-write",
+        "z": "0e1f3206f48adf14",
+        "g": "28d6aa434baf0184",
+        "name": "",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "server": "f905b5f3395bcec1",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 750,
+        "y": 2220,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "c025225aa660bf27",
+        "type": "ui_button",
+        "z": "0e1f3206f48adf14",
+        "g": "e1b6d5ba8d3de0b8",
+        "name": "",
+        "group": "78c63c00e1f5b7aa",
+        "order": 2,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "Start",
+        "tooltip": "",
+        "color": "Green",
+        "bgcolor": "white",
+        "className": "",
+        "icon": "play_arrow",
+        "payload": "Running",
+        "payloadType": "str",
+        "topic": "control",
+        "topicType": "str",
+        "x": 610,
+        "y": 160,
+        "wires": [
+            [
+                "7359636993bb200e"
+            ]
+        ]
+    },
+    {
+        "id": "731b3aa4b9eea197",
+        "type": "ui_button",
+        "z": "0e1f3206f48adf14",
+        "g": "525f6434f47c15f1",
+        "name": "",
+        "group": "78c63c00e1f5b7aa",
+        "order": 3,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "Abort",
+        "tooltip": "",
+        "color": "Red",
+        "bgcolor": "white",
+        "className": "",
+        "icon": "stop",
+        "payload": "Stopped",
+        "payloadType": "str",
+        "topic": "control",
+        "topicType": "msg",
+        "x": 990,
+        "y": 140,
+        "wires": [
+            [
+                "ad1436e2f7b892fd"
+            ]
+        ]
+    },
+    {
+        "id": "b0a864ef66666d4a",
+        "type": "ui_button",
+        "z": "0e1f3206f48adf14",
+        "d": true,
+        "g": "5b0cb2ad787928a3",
+        "name": "Perm good",
+        "group": "78c63c00e1f5b7aa",
+        "order": 12,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Perm good",
+        "tooltip": "",
+        "color": "brown",
+        "bgcolor": "white",
+        "className": "",
+        "icon": "input",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 190,
+        "y": 2780,
+        "wires": [
+            [
+                "63cb78ec39e736ad"
+            ]
+        ]
+    },
+    {
+        "id": "2271e77eb4e2a99f",
+        "type": "ui_button",
+        "z": "0e1f3206f48adf14",
+        "d": true,
+        "g": "5b0cb2ad787928a3",
+        "name": "Perm not good",
+        "group": "78c63c00e1f5b7aa",
+        "order": 13,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "Perm not good",
+        "tooltip": "",
+        "color": "brown",
+        "bgcolor": "white",
+        "className": "",
+        "icon": "input",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 200,
+        "y": 2880,
+        "wires": [
+            [
+                "6c73cdcd6ef2299b"
+            ]
+        ]
+    },
+    {
+        "id": "f679ca1115c46a1e",
+        "type": "ui_button",
+        "z": "0e1f3206f48adf14",
+        "g": "ad5ef647cb4ea746",
+        "name": "",
+        "group": "78c63c00e1f5b7aa",
+        "order": 7,
+        "width": 1,
+        "height": 1,
+        "passthru": false,
+        "label": "",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "folder_open",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "file_picker",
+        "topicType": "str",
+        "x": 110,
+        "y": 2560,
+        "wires": [
+            [
+                "968c5c6feb1e2ed1"
+            ]
+        ]
+    },
+    {
+        "id": "8ac4f1e65d36793f",
+        "type": "ui_button",
+        "z": "0e1f3206f48adf14",
+        "d": true,
+        "g": "c0966926fbe2b256",
+        "name": "run3 good",
+        "group": "78c63c00e1f5b7aa",
+        "order": 15,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "run3 good",
+        "tooltip": "",
+        "color": "brown",
+        "bgcolor": "white",
+        "className": "",
+        "icon": "input",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 180,
+        "y": 3020,
+        "wires": [
+            [
+                "5350718cde70e471"
+            ]
+        ]
+    },
+    {
+        "id": "20b7556dbd07279f",
+        "type": "ui_button",
+        "z": "0e1f3206f48adf14",
+        "d": true,
+        "g": "c0966926fbe2b256",
+        "name": "run3 not good",
+        "group": "78c63c00e1f5b7aa",
+        "order": 14,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "run3 not good",
+        "tooltip": "",
+        "color": "brown",
+        "bgcolor": "white",
+        "className": "",
+        "icon": "input",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 200,
+        "y": 3120,
+        "wires": [
+            [
+                "2f9a24fc5a17ebd3"
+            ]
+        ]
+    },
+    {
+        "id": "a6d1d00bbd920ed1",
+        "type": "ui_dropdown",
+        "z": "0e1f3206f48adf14",
+        "g": "8523ba6f048159f6",
+        "name": "",
+        "label": "Select parameter",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "03ac2f6393c19355",
+        "order": 4,
+        "width": 4,
+        "height": 1,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "",
+                "value": "",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 870,
+        "y": 820,
+        "wires": [
+            [
+                "0acf4c3f1837eb3e"
+            ]
+        ]
+    },
+    {
+        "id": "65208708e4372bc8",
+        "type": "ui_text",
+        "z": "0e1f3206f48adf14",
+        "g": "35a088b350aa3972",
+        "group": "78c63c00e1f5b7aa",
+        "order": 5,
+        "width": 4,
+        "height": 1,
+        "name": "",
+        "label": "Status",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": "12",
+        "color": "#000000",
+        "x": 1610,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "24805c900167c968",
+        "type": "ui_text",
+        "z": "0e1f3206f48adf14",
+        "g": "8523ba6f048159f6",
+        "group": "03ac2f6393c19355",
+        "order": 1,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Test status:",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": "12",
+        "color": "#000000",
+        "x": 850,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "c64bdfa07c836a68",
+        "type": "ui_text",
+        "z": "0e1f3206f48adf14",
+        "g": "ad5ef647cb4ea746",
+        "group": "78c63c00e1f5b7aa",
+        "order": 8,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Selected file:",
+        "format": "{{flow.get(test_sequence_path)}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 690,
+        "y": 2560,
+        "wires": []
+    },
+    {
+        "id": "c01aa3cf6b0ca42b",
+        "type": "ui_chart",
+        "z": "0e1f3206f48adf14",
+        "g": "8523ba6f048159f6",
+        "name": "",
+        "group": "03ac2f6393c19355",
+        "order": 6,
+        "width": 7,
+        "height": 6,
+        "label": "Trend chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "1",
+        "removeOlderPoints": "1000",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1610,
+        "y": 1040,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a5039fb22db64485",
+        "type": "ui_template",
+        "z": "0e1f3206f48adf14",
+        "g": "35a088b350aa3972",
+        "group": "78c63c00e1f5b7aa",
+        "name": "Status indicator",
+        "order": 4,
+        "width": 1,
+        "height": 1,
+        "format": "<!-- LED Indicator -->\n<div id=\"led-indicator\" style=\"\n    width: 10px;\n    height: 10px;\n    border-radius: 50%;\n    background-color: red;  /* Default: Red (Off) */\n    margin: auto;\n    box-shadow: 0 0 5px rgba(0,0,0,0.5);\n\"></div>\n\n<script>\n    (function(scope) {\n        scope.$watch('msg.payload', function(value) {\n            var led = document.getElementById(\"led-indicator\");\n\n            if (value === \"Running\") {\n                led.style.backgroundColor = \"green\"; // Green when running\n            } else {\n                led.style.backgroundColor = \"red\";   // Red when stopped\n            }\n        });\n    })(scope);\n</script>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1640,
+        "y": 680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "31d64b3b3f71f090",
+        "type": "ui_template",
+        "z": "0e1f3206f48adf14",
+        "g": "32776a10d46d718d",
+        "group": "78c63c00e1f5b7aa",
+        "name": "Permissive status",
+        "order": 1,
+        "width": 2,
+        "height": 1,
+        "format": "<div style=\"text-align:center;\">\n    <div style=\"width: 10px; height: 10px; background-color: {{msg.payload}}; border-radius: 50%; display: inline-block; box-shadow: 0px 0px 5px {{msg.payload}};\"></div>\n    <p style=\"color:white; font-size: 12px; margin: 2px;\">Permissive OK</p>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 830,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "18ecbf3af9f09387",
+        "type": "ui_template",
+        "z": "0e1f3206f48adf14",
+        "g": "b5c880e558e89abe",
+        "group": "adaa473fe0dfd2cc",
+        "name": "Coil status",
+        "order": 1,
+        "width": 3,
+        "height": 13,
+        "format": "<div ng-repeat=\"(tag, value) in msg.payload\">\n    <div style=\"display: flex; align-items: center; margin: 5px;\">\n        <!-- LED Indicator -->\n        <div style=\"width: 8px; height: 8px; border-radius: 50%;\n                    background: {{ value ? 'green' : 'red' }};\n                    box-shadow: 0px 0px 3px {{ value ? 'limegreen' : 'darkred' }};\n                    border: 1px solid {{ value ? 'darkgreen' : 'maroon' }};\">\n        </div>\n        <!-- Tag Name Next to LED -->\n        <span style=\"margin-left: 5px; font-size: 11px; color: black;\">{{ tag }}</span>\n    </div>\n</div>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1870,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b7a30e4fda68a966",
+        "type": "ui_svg_graphics",
+        "z": "0e1f3206f48adf14",
+        "group": "2d8055515cc5bf53",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "svgString": "<svg x=\"0\" y=\"0\" height=\"100\" viewBox=\"0 0 100 100\" width=\"100\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:svg=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<!-- Add here your SVG shapes (circles, rectangles, ...) -->\n<!-- Or remove everything, if you want to paste an entire drawing (<svg...>...</svg>).-->\n</svg>",
+        "clickableShapes": [],
+        "javascriptHandlers": [],
+        "smilAnimations": [],
+        "bindings": [],
+        "showCoordinates": false,
+        "autoFormatAfterEdit": false,
+        "showBrowserErrors": false,
+        "showBrowserEvents": false,
+        "enableJsDebugging": false,
+        "sendMsgWhenLoaded": false,
+        "noClickWhenDblClick": false,
+        "outputField": "payload",
+        "editorUrl": "//drawsvg.org/drawsvg.html",
+        "directory": "",
+        "panning": "disabled",
+        "zooming": "disabled",
+        "panOnlyWhenZoomed": false,
+        "doubleClickZoomEnabled": false,
+        "mouseWheelZoomEnabled": false,
+        "dblClickZoomPercentage": 150,
+        "cssString": "div.ui-svg svg{\n    color: var(--nr-dashboard-widgetColor);\n    fill: currentColor !important;\n}\ndiv.ui-svg path {\n    fill: inherit;\n}",
+        "name": "",
+        "x": 1400,
+        "y": 1840,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "81b6eb9b5e5dcf0a",
+        "type": "ui_table",
+        "z": "0e1f3206f48adf14",
+        "g": "8523ba6f048159f6",
+        "group": "03ac2f6393c19355",
+        "name": "Modbus Data Table",
+        "order": 3,
+        "width": 7,
+        "height": 5,
+        "columns": [
+            {
+                "field": "Parameter",
+                "title": "Parameter",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "Value",
+                "title": "Value",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 0,
+        "cts": false,
+        "x": 1630,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "aa822f692261d9ac",
+        "type": "file in",
+        "z": "0e1f3206f48adf14",
+        "name": "",
+        "filename": "C:\\Users\\gonnk\\OneDrive - University of Delaware - o365\\Code\\Node-red\\PEM1_Extended.csv",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "utf8",
+        "allProps": false,
+        "x": 2150,
+        "y": 760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6d569772dbcd194b",
+        "type": "inject",
+        "z": "0e1f3206f48adf14",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1880,
+        "y": 700,
+        "wires": [
+            [
+                "aa822f692261d9ac"
+            ]
+        ]
+    }
+]
