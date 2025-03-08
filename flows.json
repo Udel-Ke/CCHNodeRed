@@ -4008,5 +4008,15 @@
                 "aa822f692261d9ac"
             ]
         ]
+    },
+    {
+        "id": "d87d5b4b2960e40d",
+        "type": "comment",
+        "z": "0e1f3206f48adf14",
+        "name": "Add github comment",
+        "info": "",
+        "x": 130,
+        "y": 1240,
+        "wires": []
     }
 ]
