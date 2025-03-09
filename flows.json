@@ -3918,8 +3918,8 @@
         "dblClickZoomPercentage": 150,
         "cssString": "div.ui-svg svg{\n    color: var(--nr-dashboard-widgetColor);\n    fill: currentColor !important;\n}\ndiv.ui-svg path {\n    fill: inherit;\n}",
         "name": "",
-        "x": 1400,
-        "y": 1840,
+        "x": 1220,
+        "y": 1800,
         "wires": [
             []
         ]
@@ -3961,53 +3961,6 @@
         "x": 1630,
         "y": 960,
         "wires": []
-    },
-    {
-        "id": "aa822f692261d9ac",
-        "type": "file in",
-        "z": "0e1f3206f48adf14",
-        "name": "",
-        "filename": "C:\\Users\\gonnk\\OneDrive - University of Delaware - o365\\Code\\Node-red\\PEM1_Extended.csv",
-        "filenameType": "str",
-        "format": "utf8",
-        "chunk": false,
-        "sendError": false,
-        "encoding": "utf8",
-        "allProps": false,
-        "x": 2150,
-        "y": 760,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "6d569772dbcd194b",
-        "type": "inject",
-        "z": "0e1f3206f48adf14",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 1880,
-        "y": 700,
-        "wires": [
-            [
-                "aa822f692261d9ac"
-            ]
-        ]
     },
     {
         "id": "d87d5b4b2960e40d",
