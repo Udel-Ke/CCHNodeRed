@@ -7,7 +7,8 @@
         "node-red-contrib-ui-svg": "2.3.3",
         "node-red-dashboard": "3.6.5",
         "node-red-node-ui-table": "0.4.4",
-        "node-red-contrib-influxdb": "0.7.0"
+        "node-red-contrib-influxdb": "0.7.0",
+        "node-red-node-email": "3.0.3"
     },
     "node-red": {
         "settings": {
