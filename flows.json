@@ -309,7 +309,8 @@
             "be2a05249dece704",
             "45113a7508b326f3",
             "7edc65431e4f629c",
-            "7510c110eb4d4481"
+            "7510c110eb4d4481",
+            "3d33c8da5bb204cf"
         ],
         "x": 34,
         "y": 2039,
@@ -393,7 +394,7 @@
         ],
         "x": 14,
         "y": 19,
-        "w": 412,
+        "w": 402,
         "h": 222
     },
     {
@@ -424,6 +425,31 @@
         "y": 2679,
         "w": 892,
         "h": 202
+    },
+    {
+        "id": "891263f2623b3ee2",
+        "type": "group",
+        "z": "0e1f3206f48adf14",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "2d55dea777408eee",
+            "a27854311ccad1e5",
+            "3ae2d3e4437de255",
+            "0d0fd00deab4a399",
+            "1381504cc2d4d44b"
+        ],
+        "x": 34,
+        "y": 2979,
+        "w": 692,
+        "h": 162
     },
     {
         "id": "f905b5f3395bcec1",
@@ -461,15 +487,6 @@
         "name": "Home",
         "icon": "dashboard",
         "order": 1,
-        "disabled": false,
-        "hidden": false
-    },
-    {
-        "id": "58c2aa06.ef46e4",
-        "type": "ui_tab",
-        "name": "Setting",
-        "icon": "settings",
-        "order": 2,
         "disabled": false,
         "hidden": false
     },
@@ -514,17 +531,6 @@
         "order": 4,
         "disp": true,
         "width": 12,
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "625872f.40b1e8c",
-        "type": "ui_group",
-        "name": "Email subscription",
-        "tab": "58c2aa06.ef46e4",
-        "order": 1,
-        "disp": true,
-        "width": 19,
         "collapse": false,
         "className": ""
     },
@@ -658,36 +664,6 @@
         "rejectUnauthorized": true
     },
     {
-        "id": "2c87bdaca5536be9",
-        "type": "ui_spacer",
-        "z": "0e1f3206f48adf14",
-        "name": "spacer",
-        "group": "78c63c00e1f5b7aa",
-        "order": 7,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "d844213fc75ebb5d",
-        "type": "ui_spacer",
-        "z": "0e1f3206f48adf14",
-        "name": "spacer",
-        "group": "78c63c00e1f5b7aa",
-        "order": 10,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "dd363cabb2f9f00e",
-        "type": "ui_spacer",
-        "z": "0e1f3206f48adf14",
-        "name": "spacer",
-        "group": "2d8055515cc5bf53",
-        "order": 1,
-        "width": 12,
-        "height": 1
-    },
-    {
         "id": "c07e0049.90e8a",
         "type": "ui_tab",
         "name": "SCADA Sample",
@@ -725,6 +701,86 @@
         "disp": true,
         "width": "22",
         "collapse": false
+    },
+    {
+        "id": "f14ac7f34b89f857",
+        "type": "ui_spacer",
+        "z": "0e1f3206f48adf14",
+        "name": "spacer",
+        "group": "78c63c00e1f5b7aa",
+        "order": 7,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "d80306cd6aa46a50",
+        "type": "ui_spacer",
+        "z": "0e1f3206f48adf14",
+        "name": "spacer",
+        "group": "78c63c00e1f5b7aa",
+        "order": 10,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "b1f06bf355705883",
+        "type": "ui_spacer",
+        "z": "0e1f3206f48adf14",
+        "name": "spacer",
+        "group": "2d8055515cc5bf53",
+        "order": 1,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "afcc15c962a848ec",
+        "type": "ui_spacer",
+        "z": "0e1f3206f48adf14",
+        "name": "spacer",
+        "group": "2d8055515cc5bf53",
+        "order": 8,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "b1c72febedc4107c",
+        "type": "ui_spacer",
+        "z": "0e1f3206f48adf14",
+        "name": "spacer",
+        "group": "2d8055515cc5bf53",
+        "order": 10,
+        "width": 10,
+        "height": 1
+    },
+    {
+        "id": "cfd78204f5ced6a0",
+        "type": "ui_spacer",
+        "z": "0e1f3206f48adf14",
+        "name": "spacer",
+        "group": "2d8055515cc5bf53",
+        "order": 11,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "a04765882b88baf7",
+        "type": "ui_spacer",
+        "z": "0e1f3206f48adf14",
+        "name": "spacer",
+        "group": "2d8055515cc5bf53",
+        "order": 12,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "864f09d0d3bb5867",
+        "type": "ui_spacer",
+        "z": "0e1f3206f48adf14",
+        "name": "spacer",
+        "group": "2d8055515cc5bf53",
+        "order": 14,
+        "width": 11,
+        "height": 1
     },
     {
         "id": "401a02e5f0a36a3a",
@@ -1660,14 +1716,15 @@
         "type": "link out",
         "z": "0e1f3206f48adf14",
         "g": "1c1f20c3ada10fc1",
-        "name": "After Repeat 1s inject",
+        "name": "Repeat inject after deploy",
         "mode": "link",
         "links": [
+            "0d0fd00deab4a399",
             "214a8a9f249e5677",
-            "c7de23c01c2709f7",
-            "62c4e491e6bcbed7"
+            "62c4e491e6bcbed7",
+            "c7de23c01c2709f7"
         ],
-        "x": 385,
+        "x": 375,
         "y": 60,
         "wires": []
     },
@@ -2573,7 +2630,8 @@
         "y": 2160,
         "wires": [
             [
-                "78c83855ada6c722"
+                "78c83855ada6c722",
+                "3d33c8da5bb204cf"
             ]
         ]
     },
@@ -3654,8 +3712,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 1250,
-        "y": 3200,
+        "x": 1550,
+        "y": 2840,
         "wires": [
             [
                 "4f2f100ebc5d0c2d"
@@ -3695,8 +3753,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1420,
-        "y": 3200,
+        "x": 1720,
+        "y": 2840,
         "wires": [
             [
                 "237df4c624b54b3f"
@@ -3715,8 +3773,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1610,
-        "y": 3200,
+        "x": 1910,
+        "y": 2840,
         "wires": [
             [
                 "07d151bed69cc8ae",
@@ -3737,8 +3795,8 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1800,
-        "y": 3260,
+        "x": 2100,
+        "y": 2900,
         "wires": []
     },
     {
@@ -3755,8 +3813,8 @@
         "retentionPolicyV18Flux": "",
         "org": "my-org",
         "bucket": "my-bucket",
-        "x": 1830,
-        "y": 3200,
+        "x": 2130,
+        "y": 2840,
         "wires": []
     },
     {
@@ -3813,8 +3871,8 @@
         "retentionPolicyV18Flux": "",
         "org": "Test Lab",
         "bucket": "PEM1",
-        "x": 1810,
-        "y": 3140,
+        "x": 2110,
+        "y": 2780,
         "wires": []
     },
     {
@@ -4371,10 +4429,11 @@
         "id": "2d55dea777408eee",
         "type": "ui_svg_graphics",
         "z": "0e1f3206f48adf14",
+        "g": "891263f2623b3ee2",
         "group": "2d8055515cc5bf53",
-        "order": 1,
-        "width": 0,
-        "height": 0,
+        "order": 2,
+        "width": 12,
+        "height": 7,
         "svgString": "<svg xmlns:inkscape=\"http://www.inkscape.org/namespaces/inkscape\" xmlns:sodipodi=\"http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns=\"http://www.w3.org/2000/svg\" width=\"480.3px\" height=\"263px\" viewBox=\"60.78021240234375 26.241287231445312 303.3824768066406 166.16024780273438\" version=\"1.1\" id=\"svg1\" inkscape:version=\"1.4 (86a8ad7, 2024-10-11)\" sodipodi:docname=\"drawing_magic tri.svg\" preserveAspectRatio=\"xMinYMin meet\"><rect id=\"svgEditorBackground\" x=\"0\" y=\"0\" width=\"507.9999694824219\" height=\"285.75\" style=\"fill:none;stroke:none\"/>\n  <sodipodi:namedview id=\"namedview1\" pagecolor=\"#ffffff\" bordercolor=\"#999999\" borderopacity=\"1\" inkscape:showpageshadow=\"2\" inkscape:pageopacity=\"0\" inkscape:pagecheckerboard=\"0\" inkscape:deskcolor=\"#d1d1d1\" inkscape:document-units=\"mm\" inkscape:zoom=\"0.63729686\" inkscape:cx=\"807.31608\" inkscape:cy=\"331.08589\" inkscape:window-width=\"1920\" inkscape:window-height=\"1010\" inkscape:window-x=\"-7\" inkscape:window-y=\"-7\" inkscape:window-maximized=\"1\" inkscape:current-layer=\"layer1\" showgrid=\"false\"/>\n  <defs id=\"defs1\">\n    <marker style=\"overflow:visible\" id=\"marker45\" refX=\"0\" refY=\"0\" orient=\"auto-start-reverse\" inkscape:stockid=\"Concave triangle arrow\" markerWidth=\"0.5\" markerHeight=\"0.5\" viewBox=\"0 0 1 1\" inkscape:isstock=\"true\" inkscape:collect=\"always\" preserveAspectRatio=\"xMidYMid\">\n      <path transform=\"scale(0.7)\" d=\"M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z\" style=\"fill:context-stroke;fill-rule:evenodd;stroke:none\" id=\"path45\"/>\n    </marker>\n    <marker style=\"overflow:visible\" id=\"marker44\" refX=\"0\" refY=\"0\" orient=\"auto-start-reverse\" inkscape:stockid=\"Concave triangle arrow\" markerWidth=\"0.5\" markerHeight=\"0.5\" viewBox=\"0 0 1 1\" inkscape:isstock=\"true\" inkscape:collect=\"always\" preserveAspectRatio=\"xMidYMid\">\n      <path transform=\"scale(0.7)\" d=\"M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z\" style=\"fill:context-stroke;fill-rule:evenodd;stroke:none\" id=\"path44\"/>\n    </marker>\n    <marker style=\"overflow:visible\" id=\"marker43\" refX=\"0\" refY=\"0\" orient=\"auto-start-reverse\" inkscape:stockid=\"Concave triangle arrow\" markerWidth=\"0.5\" markerHeight=\"0.5\" viewBox=\"0 0 1 1\" inkscape:isstock=\"true\" inkscape:collect=\"always\" preserveAspectRatio=\"xMidYMid\">\n      <path transform=\"scale(0.7)\" d=\"M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z\" style=\"fill:context-stroke;fill-rule:evenodd;stroke:none\" id=\"path43\"/>\n    </marker>\n    <marker style=\"overflow:visible\" id=\"marker42\" refX=\"0\" refY=\"0\" orient=\"auto-start-reverse\" inkscape:stockid=\"Concave triangle arrow\" markerWidth=\"0.5\" markerHeight=\"0.5\" viewBox=\"0 0 1 1\" inkscape:isstock=\"true\" inkscape:collect=\"always\" preserveAspectRatio=\"xMidYMid\">\n      <path transform=\"scale(0.7)\" d=\"M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z\" style=\"fill:context-stroke;fill-rule:evenodd;stroke:none\" id=\"path42\"/>\n    </marker>\n    <marker style=\"overflow:visible\" id=\"ConcaveTriangle\" refX=\"0\" refY=\"0\" orient=\"auto-start-reverse\" inkscape:stockid=\"Concave triangle arrow\" markerWidth=\"0.5\" markerHeight=\"0.5\" viewBox=\"0 0 1 1\" inkscape:isstock=\"true\" inkscape:collect=\"always\" preserveAspectRatio=\"xMidYMid\">\n      <path transform=\"scale(0.7)\" d=\"M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z\" style=\"fill:context-stroke;fill-rule:evenodd;stroke:none\" id=\"path41\"/>\n    </marker>\n    <marker style=\"overflow:visible\" id=\"DartArrow\" refX=\"0\" refY=\"0\" orient=\"auto-start-reverse\" inkscape:stockid=\"Dart arrow\" markerWidth=\"0.5\" markerHeight=\"0.5\" viewBox=\"0 0 1 1\" inkscape:isstock=\"true\" inkscape:collect=\"always\" preserveAspectRatio=\"xMidYMid\">\n      <path style=\"fill:context-stroke;fill-rule:evenodd;stroke:none\" d=\"M 0,0 5,-5 -12.5,0 5,5 Z\" transform=\"scale(-0.5)\" id=\"path40\"/>\n    </marker>\n    <pattern inkscape:collect=\"always\" xlink:href=\"#Strips1_1\" preserveAspectRatio=\"xMidYMid\" id=\"pattern17\" patternTransform=\"matrix(0.25490928,0.17103592,-0.14717195,0.29624288,-90.353285,-82.492364)\" x=\"0\" y=\"0\"/>\n    <pattern inkscape:collect=\"always\" patternUnits=\"userSpaceOnUse\" width=\"2\" height=\"10\" patternTransform=\"translate(0,0) scale(2,2)\" preserveAspectRatio=\"xMidYMid\" id=\"Strips1_1\" style=\"fill:#000000\" inkscape:stockid=\"Stripes 01 (1:1)\" inkscape:isstock=\"true\" inkscape:label=\"Stripes 01 (1:1)\">\n      <rect style=\"stroke:none\" x=\"0\" y=\"-0.5\" width=\"1\" height=\"11\" id=\"rect134\"/>\n\n    </pattern>\n    <marker style=\"overflow:visible\" id=\"marker44-9\" refX=\"0\" refY=\"0\" orient=\"auto-start-reverse\" inkscape:stockid=\"Concave triangle arrow\" markerWidth=\"0.5\" markerHeight=\"0.5\" viewBox=\"0 0 1 1\" inkscape:isstock=\"true\" inkscape:collect=\"always\" preserveAspectRatio=\"xMidYMid\">\n      <path transform=\"scale(0.7)\" d=\"M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z\" style=\"fill:context-stroke;fill-rule:evenodd;stroke:none\" id=\"path44-4\"/>\n    </marker>\n  </defs>\n  <g inkscape:label=\"Layer 1\" inkscape:groupmode=\"layer\" id=\"layer1\">\n    <path style=\"fill:#000000;stroke-width:0.264583\" d=\"M 297.08194,163.60179 V 99.814807\" id=\"path2\"/>\n    <rect style=\"fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.775595;stroke-dasharray:none;stroke-opacity:1\" id=\"rect4\" width=\"33.735306\" height=\"52.410202\" x=\"112.88165\" y=\"81.572609\" ry=\"6.6265779\"/>\n    <path id=\"LT201\" style=\"fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1\" d=\"m 146.29544,118.93521 h -33.09226 v 8.2869 c 0,3.62612 2.89889,6.54587 6.5001,6.54587 h 20.09207 c 3.6012,0 6.50009,-2.91975 6.50009,-6.54587 z\"/>\n    <path id=\"LT202\" style=\"fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1\" d=\"M 146.29502,97.910872 H 113.2036 v 21.238518 h 33.09142 z\"/>\n    <path id=\"LT203\" style=\"fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1\" d=\"m 119.70328,81.785892 c -3.60121,0 -6.5001,2.91895 -6.5001,6.54508 v 9.68699 h 33.09226 v -9.68699 c 0,-3.62613 -2.89889,-6.54508 -6.50009,-6.54508 z\" inkscape:label=\"#LT203\"/>\n    <rect style=\"fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.28933;stroke-dasharray:none;stroke-opacity:1\" id=\"PMP200_2\" width=\"12.371079\" height=\"7.0946174\" x=\"165.46843\" y=\"147.8779\"/>\n    <circle style=\"fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.309003;stroke-dasharray:none;stroke-opacity:1\" id=\"PMP200_1\" cx=\"165.23976\" cy=\"154.46744\" r=\"6.5797076\"/>\n    <path style=\"fill:#008037;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1\" d=\"m 154.24709,124.86408 h 27.35044\" id=\"path30\"/>\n    <path style=\"fill:#008037;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1\" d=\"m 153.60029,110.17245 h 28.27444\" id=\"path31\"/>\n    <path style=\"fill:#008037;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1\" d=\"m 153.78509,125.78807 h 28.08964\" id=\"path32\"/>\n    <text xml:space=\"preserve\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.0927px;line-height:0;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#11e8e8;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1\" x=\"88.451965\" y=\"101.49514\" id=\"text41\"><tspan sodipodi:role=\"line\" id=\"tspan41\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.264583px;fill:#000000;stroke-width:0.1\" x=\"88.451965\" y=\"101.49514\">SV120</tspan></text>\n    <text xml:space=\"preserve\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.0927px;line-height:0;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#11e8e8;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1\" x=\"157.11792\" y=\"92.034447\" id=\"text41-7\"><tspan sodipodi:role=\"line\" id=\"tspan41-6\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.264583px;fill:#000000;stroke-width:0.1\" x=\"157.11792\" y=\"92.034447\">LT203</tspan></text>\n    <text xml:space=\"preserve\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.0927px;line-height:0;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#11e8e8;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1\" x=\"158.5555\" y=\"166.41386\" id=\"text41-13\"><tspan sodipodi:role=\"line\" id=\"tspan41-2\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.264583px;fill:#000000;stroke-width:0.1\" x=\"158.5555\" y=\"166.41386\">PMP200</tspan></text>\n    <path style=\"fill:#808080;fill-opacity:1;stroke:#000000;stroke-width:0.391066;stroke-dasharray:none;stroke-opacity:1\" d=\"m 96.143,153.79356 v -5.14574\" id=\"path5-1\"/>\n    <rect style=\"fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.354308;stroke-dasharray:none;stroke-opacity:1\" id=\"SV210_3\" width=\"6.3941364\" height=\"5.433466\" x=\"92.94593\" y=\"143.0372\" ry=\"0\"/>\n    <text xml:space=\"preserve\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.0927px;line-height:0;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#11e8e8;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1\" x=\"94.630341\" y=\"147.39536\" id=\"text41-1-9\"><tspan sodipodi:role=\"line\" id=\"tspan41-9-2\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.264583px;fill:#000000;stroke-width:0.1\" x=\"94.630341\" y=\"147.39536\">S</tspan></text>\n    <path sodipodi:type=\"star\" style=\"fill:#e6e6e6;stroke:#000000;stroke-width:1.68026;stroke-dasharray:none\" id=\"SV210_1\" inkscape:flatsided=\"true\" sodipodi:sides=\"3\" sodipodi:cx=\"41.686367\" sodipodi:cy=\"73.097923\" sodipodi:r1=\"34.592236\" sodipodi:r2=\"17.29612\" sodipodi:arg1=\"0.52440922\" sodipodi:arg2=\"1.5716068\" inkscape:rounded=\"0\" inkscape:randomized=\"0\" d=\"M 71.630094,90.418314 11.714605,90.369756 41.714402,38.505699 Z\" inkscape:transform-center-x=\"1.0279247\" inkscape:transform-center-y=\"0.0016678831\" transform=\"matrix(0,-0.11902885,0.11902885,0,91.67328,158.74407)\"/>\n    <path sodipodi:type=\"star\" style=\"fill:#e6e6e6;stroke:#000000;stroke-width:1.68026;stroke-dasharray:none\" id=\"SV210_2\" inkscape:flatsided=\"true\" sodipodi:sides=\"3\" sodipodi:cx=\"41.686367\" sodipodi:cy=\"73.097923\" sodipodi:r1=\"34.592236\" sodipodi:r2=\"17.29612\" sodipodi:arg1=\"0.52440922\" sodipodi:arg2=\"1.5716068\" inkscape:rounded=\"0\" inkscape:randomized=\"0\" d=\"M 71.630094,90.418314 11.714605,90.369756 41.714402,38.505699 Z\" inkscape:transform-center-x=\"-1.0279282\" inkscape:transform-center-y=\"-0.0016684426\" transform=\"matrix(0,0.11902885,-0.11902885,0,100.62865,148.81453)\"/>\n    <rect style=\"fill:#b3b3b3;stroke:#000000;stroke-width:0.155496;stroke-dasharray:none\" id=\"Cell_1\" width=\"6.6500001\" height=\"30.082857\" x=\"239.53181\" y=\"89.901398\"/>\n    <rect style=\"fill:#b3b3b3;stroke:#000000;stroke-width:0.136308;stroke-dasharray:none\" id=\"rect2\" width=\"3.9426398\" height=\"23.728094\" x=\"246.32745\" y=\"93.078781\"/>\n    <rect style=\"fill:#b3b3b3;stroke:#000000;stroke-width:0.155496;stroke-dasharray:none\" id=\"Cell_2\" width=\"6.6497378\" height=\"30.082857\" x=\"250.416\" y=\"89.901398\"/>\n    <text xml:space=\"preserve\" style=\"font-size:3.175px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#b3b3b3;stroke:#000000;stroke-width:0.2;stroke-dasharray:none\" x=\"241.92961\" y=\"106.06137\" id=\"text2\"><tspan sodipodi:role=\"line\" id=\"tspan2\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;stroke-width:0.2\" x=\"241.92961\" y=\"106.06137\">+</tspan></text>\n    <text xml:space=\"preserve\" style=\"font-size:3.175px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#b3b3b3;stroke:#000000;stroke-width:0.2;stroke-dasharray:none\" x=\"253.21144\" y=\"105.76526\" id=\"text2-1\"><tspan sodipodi:role=\"line\" id=\"tspan2-1\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;stroke-width:0.2\" x=\"253.21144\" y=\"105.76526\">-</tspan></text>\n    <text xml:space=\"preserve\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.0927px;line-height:0;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#11e8e8;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1\" x=\"270.85858\" y=\"62.502247\" id=\"text41-6\"><tspan sodipodi:role=\"line\" id=\"tspan41-1\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.264583px;fill:#000000;stroke-width:0.1\" x=\"270.85858\" y=\"62.502247\">SV310</tspan></text>\n    <path style=\"fill:#808080;fill-opacity:1;stroke:#000000;stroke-width:0.391066;stroke-dasharray:none;stroke-opacity:1\" d=\"m 277.82003,52.982803 v -5.14574\" id=\"path5-1-4\"/>\n    <rect style=\"fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.354308;stroke-dasharray:none;stroke-opacity:1\" id=\"SV310_3\" width=\"6.3941364\" height=\"5.433466\" x=\"274.62296\" y=\"42.22644\" ry=\"0\"/>\n    <text xml:space=\"preserve\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.0927px;line-height:0;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#11e8e8;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1\" x=\"276.30737\" y=\"46.584595\" id=\"text41-1-9-3\"><tspan sodipodi:role=\"line\" id=\"tspan41-9-2-2\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.264583px;fill:#000000;stroke-width:0.1\" x=\"276.30737\" y=\"46.584595\">S</tspan></text>\n    <path sodipodi:type=\"star\" style=\"fill:#e6e6e6;stroke:#000000;stroke-width:1.68026;stroke-dasharray:none\" id=\"SV310_1\" inkscape:flatsided=\"true\" sodipodi:sides=\"3\" sodipodi:cx=\"41.686367\" sodipodi:cy=\"73.097923\" sodipodi:r1=\"34.592236\" sodipodi:r2=\"17.29612\" sodipodi:arg1=\"0.52440922\" sodipodi:arg2=\"1.5716068\" inkscape:rounded=\"0\" inkscape:randomized=\"0\" d=\"M 71.630094,90.418314 11.714605,90.369756 41.714402,38.505699 Z\" inkscape:transform-center-x=\"1.0279247\" inkscape:transform-center-y=\"0.0016678831\" transform=\"matrix(0,-0.11902885,0.11902885,0,273.35031,57.933313)\"/>\n    <path sodipodi:type=\"star\" style=\"fill:#e6e6e6;stroke:#000000;stroke-width:1.68026;stroke-dasharray:none\" id=\"SV310_2\" inkscape:flatsided=\"true\" sodipodi:sides=\"3\" sodipodi:cx=\"41.686367\" sodipodi:cy=\"73.097923\" sodipodi:r1=\"34.592236\" sodipodi:r2=\"17.29612\" sodipodi:arg1=\"0.52440922\" sodipodi:arg2=\"1.5716068\" inkscape:rounded=\"0\" inkscape:randomized=\"0\" d=\"M 71.630094,90.418314 11.714605,90.369756 41.714402,38.505699 Z\" inkscape:transform-center-x=\"-1.0279282\" inkscape:transform-center-y=\"-0.0016684426\" transform=\"matrix(0,0.11902885,-0.11902885,0,282.30568,48.003773)\"/>\n    <path style=\"fill:#1a1a1a;stroke:#000000;stroke-width:0.2;stroke-dasharray:none\" d=\"m 146.36992,90.443502 h 9.83446\" id=\"path3\"/>\n    <path style=\"fill:#1a1a1a;stroke:#000000;stroke-width:0.2;stroke-dasharray:none\" d=\"m 146.22313,105.70894 h 9.98125\" id=\"path4\"/>\n    <path style=\"fill:#1a1a1a;stroke:#000000;stroke-width:0.2;stroke-dasharray:none\" d=\"m 146.22313,122.88255 h 9.83446\" id=\"path5\"/>\n    <g id=\"g1\" transform=\"translate(122.64954,0.18601478)\">\n      <text xml:space=\"preserve\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.0927px;line-height:0;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#11e8e8;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1\" x=\"34.480518\" y=\"106.89229\" id=\"text41-2\"><tspan sodipodi:role=\"line\" id=\"tspan41-7\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.264583px;fill:#000000;stroke-width:0.1\" x=\"34.480518\" y=\"106.89229\">LT202</tspan></text>\n    </g>\n    <text xml:space=\"preserve\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.0927px;line-height:0;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#11e8e8;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1\" x=\"156.98701\" y=\"124.265\" id=\"text41-1\"><tspan sodipodi:role=\"line\" id=\"tspan41-23\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.264583px;fill:#000000;stroke-width:0.1\" x=\"156.98701\" y=\"124.265\">LT201</tspan></text>\n    <text xml:space=\"preserve\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.0927px;line-height:0;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#11e8e8;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1\" x=\"88.823891\" y=\"164.72838\" id=\"text41-3\"><tspan sodipodi:role=\"line\" id=\"tspan41-8\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.264583px;fill:#000000;stroke-width:0.1\" x=\"88.823891\" y=\"164.72838\">SV210</tspan></text>\n    <path style=\"fill:#808080;fill-opacity:1;stroke:#000000;stroke-width:0.391066;stroke-dasharray:none;stroke-opacity:1\" d=\"m 95.840281,91.128017 v -5.14574\" id=\"path5-1-7\"/>\n    <rect style=\"fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.354308;stroke-dasharray:none;stroke-opacity:1\" id=\"SV120_3\" width=\"6.3941364\" height=\"5.433466\" x=\"92.643219\" y=\"80.371658\" ry=\"0\"/>\n    <text xml:space=\"preserve\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.0927px;line-height:0;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#11e8e8;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1\" x=\"94.327637\" y=\"84.729805\" id=\"text41-1-9-2\"><tspan sodipodi:role=\"line\" id=\"tspan41-9-2-7\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.264583px;fill:#000000;stroke-width:0.1\" x=\"94.327637\" y=\"84.729805\">S</tspan></text>\n    <path sodipodi:type=\"star\" style=\"fill:#e6e6e6;stroke:#000000;stroke-width:1.68026;stroke-dasharray:none\" id=\"SV120_2\" inkscape:flatsided=\"true\" sodipodi:sides=\"3\" sodipodi:cx=\"41.686367\" sodipodi:cy=\"73.097923\" sodipodi:r1=\"34.592236\" sodipodi:r2=\"17.29612\" sodipodi:arg1=\"0.52440922\" sodipodi:arg2=\"1.5716068\" inkscape:rounded=\"0\" inkscape:randomized=\"0\" d=\"M 71.630094,90.418314 11.714605,90.369756 41.714402,38.505699 Z\" inkscape:transform-center-x=\"1.0279247\" inkscape:transform-center-y=\"0.0016678831\" transform=\"matrix(0,-0.11902885,0.11902885,0,91.370561,96.078537)\"/>\n    <path sodipodi:type=\"star\" style=\"fill:#e6e6e6;stroke:#000000;stroke-width:1.68026;stroke-dasharray:none\" id=\"SV120_1\" inkscape:flatsided=\"true\" sodipodi:sides=\"3\" sodipodi:cx=\"41.686367\" sodipodi:cy=\"73.097923\" sodipodi:r1=\"34.592236\" sodipodi:r2=\"17.29612\" sodipodi:arg1=\"0.52440922\" sodipodi:arg2=\"1.5716068\" inkscape:rounded=\"0\" inkscape:randomized=\"0\" d=\"M 71.630094,90.418314 11.714605,90.369756 41.714402,38.505699 Z\" inkscape:transform-center-x=\"-1.0279282\" inkscape:transform-center-y=\"-0.0016684426\" transform=\"matrix(0,0.11902885,-0.11902885,0,100.32593,86.148987)\"/>\n    <rect style=\"fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.775595;stroke-dasharray:none;stroke-opacity:1\" id=\"rect4-6\" width=\"33.735306\" height=\"52.410202\" x=\"291.26431\" y=\"79.172539\" ry=\"6.6265779\"/>\n    <path id=\"LT301\" style=\"fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1\" d=\"m 324.6781,116.53515 h -33.09226 v 8.2869 c 0,3.62612 2.89889,6.54587 6.5001,6.54587 h 20.09207 c 3.6012,0 6.50009,-2.91975 6.50009,-6.54587 z\"/>\n    <path id=\"LT302\" style=\"fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1\" d=\"m 324.67768,95.510814 h -33.09142 v 21.238516 h 33.09142 z\"/>\n    <path id=\"LT303\" style=\"fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1\" d=\"m 298.08594,79.385834 c -3.60121,0 -6.5001,2.91895 -6.5001,6.54508 v 9.68699 h 33.09226 v -9.68699 c 0,-3.62613 -2.89889,-6.54508 -6.50009,-6.54508 z\" inkscape:label=\"#LT203\"/>\n    <path style=\"fill:#008037;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1\" d=\"m 332.62975,122.46402 h 27.35044\" id=\"path30-8\"/>\n    <path style=\"fill:#008037;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1\" d=\"m 331.98295,107.77239 h 28.27444\" id=\"path31-6\"/>\n    <path style=\"fill:#008037;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1\" d=\"m 332.16775,123.38801 h 28.08964\" id=\"path32-0\"/>\n    <text xml:space=\"preserve\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.0927px;line-height:0;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#11e8e8;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1\" x=\"335.50058\" y=\"89.634377\" id=\"text41-7-2\"><tspan sodipodi:role=\"line\" id=\"tspan41-6-4\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.264583px;fill:#000000;stroke-width:0.1\" x=\"335.50058\" y=\"89.634377\">LT303</tspan></text>\n    <path style=\"fill:#1a1a1a;stroke:#000000;stroke-width:0.2;stroke-dasharray:none\" d=\"m 324.75258,88.043444 h 9.83446\" id=\"path3-8\"/>\n    <path style=\"fill:#1a1a1a;stroke:#000000;stroke-width:0.2;stroke-dasharray:none\" d=\"m 324.60579,103.30888 h 9.98125\" id=\"path4-6\"/>\n    <path style=\"fill:#1a1a1a;stroke:#000000;stroke-width:0.2;stroke-dasharray:none\" d=\"m 324.60579,120.48249 h 9.83446\" id=\"path5-5\"/>\n    <g id=\"g2\" transform=\"translate(301.0322,-2.2140469)\">\n      <text xml:space=\"preserve\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.0927px;line-height:0;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#11e8e8;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1\" x=\"34.480518\" y=\"106.89229\" id=\"text41-2-0\"><tspan sodipodi:role=\"line\" id=\"tspan41-7-9\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.264583px;fill:#000000;stroke-width:0.1\" x=\"34.480518\" y=\"106.89229\">LT302</tspan></text>\n    </g>\n    <text xml:space=\"preserve\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.0927px;line-height:0;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#11e8e8;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1\" x=\"335.36969\" y=\"121.86494\" id=\"text41-1-0\"><tspan sodipodi:role=\"line\" id=\"tspan41-23-0\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.264583px;fill:#000000;stroke-width:0.1\" x=\"335.36969\" y=\"121.86494\">LT301</tspan></text>\n    <circle style=\"fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.309003;stroke-dasharray:none;stroke-opacity:1\" id=\"HTR200\" cx=\"215.16191\" cy=\"150.87193\" r=\"6.5797076\"/>\n    <path style=\"fill:none;stroke:#000000;stroke-width:1.2;stroke-dasharray:none\" d=\"m 205.98892,151.13678 h 5.29335 l 2.3872,-4.7744 3.5289,7.99193 2.3872,-3.6327 h 5.50094\" id=\"path6\"/>\n    <text xml:space=\"preserve\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.0927px;line-height:0;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#11e8e8;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1\" x=\"205.89055\" y=\"162.2764\" id=\"text41-13-0\"><tspan sodipodi:role=\"line\" id=\"tspan41-2-6\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.264583px;fill:#000000;stroke-width:0.1\" x=\"205.89055\" y=\"162.2764\">HTR200</tspan></text>\n    <path style=\"fill:none;stroke:#000000;stroke-width:1.2;stroke-dasharray:none\" d=\"m 136.58927,133.68312 v 20.55067 h 22.03468\" id=\"path7\" sodipodi:nodetypes=\"ccc\"/>\n    <path style=\"fill:none;stroke:#000000;stroke-width:1.2;stroke-dasharray:none\" d=\"m 177.86833,151.12005 h 28.26108\" id=\"path8\" sodipodi:nodetypes=\"cc\"/>\n    <path style=\"fill:none;stroke:#000000;stroke-width:1.20599;stroke-dasharray:none;marker-end:url(#marker42)\" d=\"m 224.5083,150.70663 18.15417,-0.11009 v -26.79906\" id=\"path9\" sodipodi:nodetypes=\"ccc\"/>\n    <path style=\"fill:none;stroke:#000000;stroke-width:1.2;stroke-dasharray:none\" d=\"M 242.7607,89.794489 V 70.749397 H 137.976 l 0,10.641766\" id=\"path10\" sodipodi:nodetypes=\"cccc\"/>\n    <text xml:space=\"preserve\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.0927px;line-height:0;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#11e8e8;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1\" x=\"256.77304\" y=\"185.89088\" id=\"text41-61\"><tspan sodipodi:role=\"line\" id=\"tspan41-4\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.264583px;fill:#000000;stroke-width:0.1\" x=\"256.77304\" y=\"185.89088\">SV320</tspan></text>\n    <path style=\"fill:#808080;fill-opacity:1;stroke:#000000;stroke-width:0.391066;stroke-dasharray:none;stroke-opacity:1\" d=\"m 264.04891,175.188 v -5.14574\" id=\"path5-1-2\"/>\n    <rect style=\"fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.354308;stroke-dasharray:none;stroke-opacity:1\" id=\"SV320_3\" width=\"6.3941364\" height=\"5.433466\" x=\"260.85184\" y=\"164.43166\" ry=\"0\"/>\n    <text xml:space=\"preserve\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.0927px;line-height:0;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#11e8e8;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1\" x=\"262.53625\" y=\"168.78979\" id=\"text41-1-9-22\"><tspan sodipodi:role=\"line\" id=\"tspan41-9-2-1\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.264583px;fill:#000000;stroke-width:0.1\" x=\"262.53625\" y=\"168.78979\">S</tspan></text>\n    <path sodipodi:type=\"star\" style=\"fill:#e6e6e6;stroke:#000000;stroke-width:1.68026;stroke-dasharray:none\" id=\"SV320_1\" inkscape:flatsided=\"true\" sodipodi:sides=\"3\" sodipodi:cx=\"41.686367\" sodipodi:cy=\"73.097923\" sodipodi:r1=\"34.592236\" sodipodi:r2=\"17.29612\" sodipodi:arg1=\"0.52440922\" sodipodi:arg2=\"1.5716068\" inkscape:rounded=\"0\" inkscape:randomized=\"0\" d=\"M 71.630094,90.418314 11.714605,90.369756 41.714402,38.505699 Z\" inkscape:transform-center-x=\"1.0279247\" inkscape:transform-center-y=\"0.0016678831\" transform=\"matrix(0,-0.11902885,0.11902885,0,259.57919,180.13851)\"/>\n    <path sodipodi:type=\"star\" style=\"fill:#e6e6e6;stroke:#000000;stroke-width:1.68026;stroke-dasharray:none\" id=\"SV320_2\" inkscape:flatsided=\"true\" sodipodi:sides=\"3\" sodipodi:cx=\"41.686367\" sodipodi:cy=\"73.097923\" sodipodi:r1=\"34.592236\" sodipodi:r2=\"17.29612\" sodipodi:arg1=\"0.52440922\" sodipodi:arg2=\"1.5716068\" inkscape:rounded=\"0\" inkscape:randomized=\"0\" d=\"M 71.630094,90.418314 11.714605,90.369756 41.714402,38.505699 Z\" inkscape:transform-center-x=\"-1.0279282\" inkscape:transform-center-y=\"-0.0016684426\" transform=\"matrix(0,0.11902885,-0.11902885,0,268.53457,170.20897)\"/>\n    <rect style=\"fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.28933;stroke-dasharray:none;stroke-opacity:1\" id=\"PMP210_2\" width=\"12.371079\" height=\"7.0946174\" x=\"191.90289\" y=\"122.71127\"/>\n    <circle style=\"fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.309003;stroke-dasharray:none;stroke-opacity:1\" id=\"PMP210_1\" cx=\"191.67422\" cy=\"129.30081\" r=\"6.5797076\"/>\n    <text xml:space=\"preserve\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.0927px;line-height:0;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#11e8e8;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1\" x=\"183.97939\" y=\"140.14026\" id=\"text41-13-7\"><tspan sodipodi:role=\"line\" id=\"tspan41-2-9\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.264583px;fill:#000000;stroke-width:0.1\" x=\"183.97939\" y=\"140.14026\">PMP210</tspan></text>\n    <path style=\"fill:none;stroke:#000000;stroke-width:1.2\" d=\"m 140.32576,133.68312 v 6.64264 h 34.25111 v -10.58671 h 10.37912\" id=\"path1\"/>\n    <rect style=\"fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.634624;stroke-dasharray:none\" id=\"rect1\" width=\"22.165438\" height=\"7.9170485\" x=\"190.13005\" y=\"93.611443\" ry=\"3.5504117\" rx=\"2.3676498\"/>\n    <path style=\"fill:url(#pattern17);fill-opacity:1;stroke:none;stroke-width:0.610057;stroke-dasharray:none\" d=\"m 194.14656,93.962831 v 7.211759 h 14.35865 v -7.211759 z\" id=\"path11\"/>\n    <rect style=\"fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.420264;stroke-dasharray:none;stroke-opacity:1\" id=\"HEX210\" width=\"14.614301\" height=\"4.650341\" x=\"212.46649\" y=\"123.96944\"/>\n    <path style=\"fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1\" d=\"m 214.84355,122.50622 v 7.57676 l -2.49099,2.49099\" id=\"path17\"/>\n    <path style=\"fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1\" d=\"m 224.81672,122.50622 v 7.57676 l 2.49099,2.49099\" id=\"path17-2\"/>\n    <path style=\"fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1\" d=\"m 218.02777,130.63686 c -1.11921,-0.53209 0,-0.84401 0,-0.84401 l 1.35775,0.27523 z\" id=\"path18\"/>\n    <path style=\"fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1\" d=\"m 221.35399,130.66163 c 1.11921,-0.53209 0,-0.84401 0,-0.84401 l -1.35775,0.27523 z\" id=\"path18-1\"/>\n    <path style=\"fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.2;stroke-dasharray:none;stroke-opacity:1\" d=\"m 204.22779,126.09549 h 8.36663\" id=\"path19\"/>\n    <path style=\"fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.2;stroke-dasharray:none;stroke-opacity:1\" d=\"m 226.92649,125.79302 h 5.43097 l 0,-28.403929 -19.71929,0\" id=\"path20\" sodipodi:nodetypes=\"cccc\"/>\n    <path style=\"fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.2;stroke-dasharray:none;stroke-opacity:1\" d=\"M 189.9728,97.406895 H 146.67182\" id=\"path21\"/>\n    <path style=\"fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.2;stroke-dasharray:none;stroke-opacity:1\" d=\"M 253.90926,89.827492 V 74.385844 h 9.56854\" id=\"path22\"/>\n    <text xml:space=\"preserve\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.0927px;line-height:0;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#11e8e8;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1\" x=\"260.23669\" y=\"83.151291\" id=\"text41-61-2\"><tspan sodipodi:role=\"line\" id=\"tspan41-4-7\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.264583px;fill:#000000;stroke-width:0.1\" x=\"260.23669\" y=\"83.151291\">BPR302</tspan></text>\n    <path style=\"fill:#808080;fill-opacity:1;stroke:#000000;stroke-width:0.391066;stroke-dasharray:none;stroke-opacity:1\" d=\"m 269.30807,74.497529 v -5.14574\" id=\"path5-1-2-7\"/>\n    <path sodipodi:type=\"star\" style=\"fill:#e6e6e6;stroke:#000000;stroke-width:1.68026;stroke-dasharray:none\" id=\"BPR302_1\" inkscape:flatsided=\"true\" sodipodi:sides=\"3\" sodipodi:cx=\"41.686367\" sodipodi:cy=\"73.097923\" sodipodi:r1=\"34.592236\" sodipodi:r2=\"17.29612\" sodipodi:arg1=\"0.52440922\" sodipodi:arg2=\"1.5716068\" inkscape:rounded=\"0\" inkscape:randomized=\"0\" d=\"M 71.630094,90.418314 11.714605,90.369756 41.714402,38.505699 Z\" inkscape:transform-center-x=\"1.0279247\" inkscape:transform-center-y=\"0.0016678831\" transform=\"matrix(0,-0.11902885,0.11902885,0,264.83835,79.448039)\"/>\n    <path sodipodi:type=\"star\" style=\"fill:#e6e6e6;stroke:#000000;stroke-width:1.68026;stroke-dasharray:none\" id=\"BPR302_2\" inkscape:flatsided=\"true\" sodipodi:sides=\"3\" sodipodi:cx=\"41.686367\" sodipodi:cy=\"73.097923\" sodipodi:r1=\"34.592236\" sodipodi:r2=\"17.29612\" sodipodi:arg1=\"0.52440922\" sodipodi:arg2=\"1.5716068\" inkscape:rounded=\"0\" inkscape:randomized=\"0\" d=\"M 71.630094,90.418314 11.714605,90.369756 41.714402,38.505699 Z\" inkscape:transform-center-x=\"-1.0279282\" inkscape:transform-center-y=\"-0.0016684426\" transform=\"matrix(0,0.11902885,-0.11902885,0,273.79373,69.518499)\"/>\n    <path style=\"fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1\" id=\"path23\" sodipodi:type=\"arc\" sodipodi:cx=\"269.32678\" sodipodi:cy=\"-69.288177\" sodipodi:rx=\"2.0758247\" sodipodi:ry=\"2.0758247\" sodipodi:start=\"0\" sodipodi:end=\"3.1415927\" sodipodi:arc-type=\"slice\" d=\"m 271.40261,-69.288177 a 2.0758247,2.0758247 0 0 1 -1.03792,1.797716 2.0758247,2.0758247 0 0 1 -2.07582,0 2.0758247,2.0758247 0 0 1 -1.03791,-1.797716 h 2.07582 z\" transform=\"scale(1,-1)\"/>\n    <path style=\"fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1\" d=\"m 269.09054,74.256989 -4.77044,-5.10071 v -4.95393 h 5.06399 v 2.93567\" id=\"path24\"/>\n    <path style=\"fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.2;stroke-dasharray:none;stroke-opacity:1\" d=\"m 253.88597,79.711673 v -26.77814 h 17.8521\" id=\"path26\"/>\n    <path style=\"fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.2;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker45)\" d=\"M 316.4641,78.382113 V 35.227916\" id=\"path27\"/>\n    <path style=\"fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.2;stroke-dasharray:none;stroke-opacity:1\" d=\"m 284.12853,52.622161 h 31.91581\" id=\"path28\" sodipodi:nodetypes=\"cc\"/>\n    <path style=\"fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.2;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ConcaveTriangle)\" d=\"m 309.12495,131.62764 v 43.15681 l -35.03619,0.0734\" id=\"path29\" sodipodi:nodetypes=\"ccc\"/>\n    <text xml:space=\"preserve\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.0927px;line-height:0;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#11e8e8;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1\" x=\"210.5563\" y=\"137.36679\" id=\"text41-13-7-8\"><tspan sodipodi:role=\"line\" id=\"tspan41-2-9-6\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.264583px;fill:#000000;stroke-width:0.1\" x=\"210.5563\" y=\"137.36679\">HEX210</tspan></text>\n    <text xml:space=\"preserve\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.0927px;line-height:0;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#11e8e8;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1\" x=\"192.21019\" y=\"91.958069\" id=\"text41-13-7-8-6\"><tspan sodipodi:role=\"line\" id=\"tspan41-2-9-6-5\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.264583px;fill:#000000;stroke-width:0.1\" x=\"192.21019\" y=\"91.958069\">DMN210</tspan></text>\n    <path style=\"fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.2;stroke-dasharray:none;stroke-opacity:1\" d=\"M 257.60414,174.81853 H 130.93042 v -40.95245\" id=\"path33\"/>\n    <path style=\"fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.2;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker43)\" d=\"M 102.33817,153.66293 H 125.6393 V 138.14614\" id=\"path34\" sodipodi:nodetypes=\"ccc\"/>\n    <path style=\"fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.2;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker44)\" d=\"m 102.10464,90.505964 h 6.80259\" id=\"path35\" sodipodi:nodetypes=\"cc\"/>\n    <path style=\"fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.2;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DartArrow)\" d=\"M 130.56938,81.268543 V 54.603268 h 30.8919\" id=\"path36\"/>\n    <text xml:space=\"preserve\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.0927px;line-height:0;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#11e8e8;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1\" x=\"120.8921\" y=\"94.683907\" id=\"text41-3-6\"><tspan sodipodi:role=\"line\" id=\"tspan41-8-1\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.264583px;fill:#000000;stroke-width:0.1\" x=\"120.8921\" y=\"94.683907\">SEP200</tspan></text>\n    <text xml:space=\"preserve\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.0927px;line-height:0;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#11e8e8;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1\" x=\"299.01617\" y=\"93.524315\" id=\"text41-3-6-4\"><tspan sodipodi:role=\"line\" id=\"tspan41-8-1-4\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.264583px;fill:#000000;stroke-width:0.1\" x=\"299.01617\" y=\"93.524315\">SEP300</tspan></text>\n    <circle style=\"fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1\" id=\"HCD220\" cx=\"140.21278\" cy=\"46.687172\" r=\"3.1137373\"/>\n    <path style=\"fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1\" d=\"m 140.21278,49.923588 v 4.255439\" id=\"path38\"/>\n    <text xml:space=\"preserve\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.0927px;line-height:0;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#11e8e8;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1\" x=\"132.28711\" y=\"42.429344\" id=\"text41-18\"><tspan sodipodi:role=\"line\" id=\"tspan41-49\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.264583px;fill:#000000;stroke-width:0.1\" x=\"132.28711\" y=\"42.429344\">HCD220</tspan></text>\n    <path style=\"fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1\" d=\"m 136.95254,46.654164 h 6.17558\" id=\"path46\"/>\n    <circle style=\"fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1\" id=\"PT302_1\" cx=\"253.87256\" cy=\"45.099213\" r=\"3.1137373\"/>\n    <path style=\"fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1\" d=\"m 253.87255,48.335628 v 4.255439\" id=\"path38-0\"/>\n    <text xml:space=\"preserve\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.0927px;line-height:0;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#11e8e8;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1\" x=\"246.98479\" y=\"41.048969\" id=\"text41-18-8\"><tspan sodipodi:role=\"line\" id=\"tspan41-49-7\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.264583px;fill:#000000;stroke-width:0.1\" x=\"246.98479\" y=\"41.048969\">PT302</tspan></text>\n    <path style=\"fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1\" d=\"m 250.61231,45.066204 h 6.17558\" id=\"path46-7\"/>\n    <circle style=\"fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1\" id=\"TE201\" cx=\"250.65663\" cy=\"131.1696\" r=\"3.1137373\"/>\n    <path style=\"fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1\" d=\"m 247.39638,131.1696 h 6.17558\" id=\"path46-2\"/>\n    <path style=\"fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1\" d=\"M 247.38643,131.1696 H 242.9234\" id=\"path47\"/>\n    <text xml:space=\"preserve\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.0927px;line-height:0;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#11e8e8;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1\" x=\"255.10944\" y=\"132.95612\" id=\"text41-18-9\"><tspan sodipodi:role=\"line\" id=\"tspan41-49-8\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.264583px;fill:#000000;stroke-width:0.1\" x=\"255.10944\" y=\"132.95612\">TE201</tspan></text>\n    <circle style=\"fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1\" id=\"PT201\" cx=\"250.90489\" cy=\"139.14792\" r=\"3.1137373\"/>\n    <path style=\"fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1\" d=\"m 247.64464,139.14792 h 6.17558\" id=\"path46-2-6\"/>\n    <path style=\"fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1\" d=\"m 247.63469,139.14792 h -4.46303\" id=\"path47-1\"/>\n    <text xml:space=\"preserve\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.0927px;line-height:0;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#11e8e8;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1\" x=\"255.35771\" y=\"140.93443\" id=\"text41-18-9-5\"><tspan sodipodi:role=\"line\" id=\"tspan41-49-8-4\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.264583px;fill:#000000;stroke-width:0.1\" x=\"255.35771\" y=\"140.93443\">PT201</tspan></text>\n    <path style=\"fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.2;stroke-dasharray:none;stroke-opacity:1\" d=\"m 82.691174,90.756703 h 6.80259\" id=\"path35-2\" sodipodi:nodetypes=\"cc\"/>\n    <path style=\"fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.2;stroke-dasharray:none;stroke-opacity:1\" d=\"m 82.961834,153.78627 h 6.80259\" id=\"path35-2-5\" sodipodi:nodetypes=\"cc\"/>\n    <text xml:space=\"preserve\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.0927px;line-height:0;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#11e8e8;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1\" x=\"65.56723\" y=\"155.5878\" id=\"text41-20\"><tspan sodipodi:role=\"line\" id=\"tspan41-0\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.264583px;fill:#000000;stroke-width:0.1\" x=\"65.56723\" y=\"155.5878\">DI H<tspan style=\"font-size:65%;baseline-shift:sub\" id=\"tspan48\">2</tspan>O</tspan></text>\n    <text xml:space=\"preserve\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.0927px;line-height:0;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#11e8e8;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1\" x=\"76.515106\" y=\"92.236549\" id=\"text41-20-7\"><tspan sodipodi:role=\"line\" id=\"tspan41-0-1\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.264583px;fill:#000000;stroke-width:0.1\" x=\"76.515106\" y=\"92.236549\">N<tspan style=\"font-size:65%;baseline-shift:sub\" id=\"tspan47\">2</tspan></tspan></text>\n    <text xml:space=\"preserve\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.0927px;line-height:0;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#11e8e8;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1\" x=\"166.74419\" y=\"56.188801\" id=\"text41-8\"><tspan sodipodi:role=\"line\" id=\"tspan41-26\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.264583px;fill:#000000;stroke-width:0.1\" x=\"166.74419\" y=\"56.188801\">O<tspan style=\"font-size:65%;baseline-shift:sub\" id=\"tspan49\">2</tspan> Discharge</tspan></text>\n    <text xml:space=\"preserve\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.0927px;line-height:0;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#11e8e8;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1\" x=\"318.12579\" y=\"41.224129\" id=\"text41-8-0\"><tspan sodipodi:role=\"line\" id=\"tspan41-26-1\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.264583px;fill:#000000;stroke-width:0.1\" x=\"318.12579\" y=\"41.224129\">H<tspan style=\"font-size:65%;baseline-shift:sub\" id=\"tspan49-2\">2</tspan> Discharge</tspan></text>\n    <text xml:space=\"preserve\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.0927px;line-height:0;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#11e8e8;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1\" x=\"335.05841\" y=\"77.509506\" id=\"text41-35\"><tspan sodipodi:role=\"line\" id=\"tspan41-12\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.264583px;fill:#000000;stroke-width:0.1\" x=\"335.05841\" y=\"77.509506\">SV130</tspan></text>\n    <path style=\"fill:#808080;fill-opacity:1;stroke:#000000;stroke-width:0.391066;stroke-dasharray:none;stroke-opacity:1\" d=\"m 342.33429,66.806643 v -5.14574\" id=\"path5-1-0\"/>\n    <rect style=\"fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.354308;stroke-dasharray:none;stroke-opacity:1\" id=\"SV130_3\" width=\"6.3941364\" height=\"5.433466\" x=\"339.13721\" y=\"56.050282\" ry=\"0\"/>\n    <text xml:space=\"preserve\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.0927px;line-height:0;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#11e8e8;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1\" x=\"340.82162\" y=\"60.408428\" id=\"text41-1-9-6\"><tspan sodipodi:role=\"line\" id=\"tspan41-9-2-4\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.264583px;fill:#000000;stroke-width:0.1\" x=\"340.82162\" y=\"60.408428\">S</tspan></text>\n    <path sodipodi:type=\"star\" style=\"fill:#e6e6e6;stroke:#000000;stroke-width:1.68026;stroke-dasharray:none\" id=\"SV130_1\" inkscape:flatsided=\"true\" sodipodi:sides=\"3\" sodipodi:cx=\"41.686367\" sodipodi:cy=\"73.097923\" sodipodi:r1=\"34.592236\" sodipodi:r2=\"17.29612\" sodipodi:arg1=\"0.52440922\" sodipodi:arg2=\"1.5716068\" inkscape:rounded=\"0\" inkscape:randomized=\"0\" d=\"M 71.630094,90.418314 11.714605,90.369756 41.714402,38.505699 Z\" inkscape:transform-center-x=\"1.0279247\" inkscape:transform-center-y=\"0.0016678831\" transform=\"matrix(0,-0.11902885,0.11902885,0,337.86456,71.757156)\"/>\n    <path sodipodi:type=\"star\" style=\"fill:#e6e6e6;stroke:#000000;stroke-width:1.68026;stroke-dasharray:none\" id=\"SV130_2\" inkscape:flatsided=\"true\" sodipodi:sides=\"3\" sodipodi:cx=\"41.686367\" sodipodi:cy=\"73.097923\" sodipodi:r1=\"34.592236\" sodipodi:r2=\"17.29612\" sodipodi:arg1=\"0.52440922\" sodipodi:arg2=\"1.5716068\" inkscape:rounded=\"0\" inkscape:randomized=\"0\" d=\"M 71.630094,90.418314 11.714605,90.369756 41.714402,38.505699 Z\" inkscape:transform-center-x=\"-1.0279282\" inkscape:transform-center-y=\"-0.0016684426\" transform=\"matrix(0,0.11902885,-0.11902885,0,346.81994,61.827613)\"/>\n    <path style=\"fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.2;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker44-9)\" d=\"m 320.36358,66.488982 15.75635,0\" id=\"path35-1\" sodipodi:nodetypes=\"cc\"/>\n    <path style=\"fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.2;stroke-dasharray:none;stroke-opacity:1\" d=\"m 348.52619,66.624291 h 6.80259\" id=\"path35-2-8\" sodipodi:nodetypes=\"cc\"/>\n    <text xml:space=\"preserve\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.0927px;line-height:0;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#11e8e8;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1\" x=\"356.14774\" y=\"68.177528\" id=\"text41-20-7-9\"><tspan sodipodi:role=\"line\" id=\"tspan41-0-1-8\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.264583px;fill:#000000;stroke-width:0.1\" x=\"356.14774\" y=\"68.177528\">N<tspan style=\"font-size:65%;baseline-shift:sub\" id=\"tspan47-4\">2</tspan></tspan></text>\n    <path style=\"fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.2;stroke-dasharray:none;stroke-opacity:1\" d=\"m 275.51165,74.125406 h 26.42095 v 4.697056\" id=\"path51\"/>\n  </g>\n</svg>",
         "clickableShapes": [],
         "javascriptHandlers": [],
@@ -4398,26 +4457,27 @@
         "dblClickZoomPercentage": 150,
         "cssString": "div.ui-svg svg{\n    color: var(--nr-dashboard-widgetColor);\n    fill: currentColor !important;\n}\ndiv.ui-svg path {\n    fill: inherit;\n}",
         "name": "",
-        "x": 2040,
-        "y": 2160,
+        "x": 620,
+        "y": 3100,
         "wires": [
             []
         ]
     },
     {
-        "id": "5088e65654ed37f4",
+        "id": "a27854311ccad1e5",
         "type": "function",
         "z": "0e1f3206f48adf14",
-        "name": "",
-        "func": "msg.payload = [\n    {\n        \"command\": \"set_style\",\n        \"selector\": \"#SV120_1, #SV120_2, #SV120_3\",\n        \"attributeName\": \"fill\",\n        \"attributeValue\": \"rgba(198, 243, 198, 1.0)\"\n    }\n];\n\nreturn msg;",
+        "g": "891263f2623b3ee2",
+        "name": "function 5",
+        "func": "// Retrieve the latest modbus coil statuses\nlet modbusCoilStatus = flow.get(\"modbusCoilStatus\") || {};\n\n// Define the coil-to-selector mapping and colors\nconst coilMapping = {\n    \"SV120.SV_Open\": { selectors: [\"SV120_1\", \"SV120_2\", \"SV120_3\"], activeColor: \"rgba(198, 243, 198, 1.0)\", inactiveColor: \"rgba(230, 230, 230, 1.0)\" },\n    \"SV130.SV_Open\": { selectors: [\"SV130_1\", \"SV130_2\", \"SV130_3\"], activeColor: \"rgba(198, 243, 198, 1.0)\", inactiveColor: \"rgba(230, 230, 230, 1.0)\" },\n    \"SV210.SV_Open\": { selectors: [\"SV210_1\", \"SV210_2\", \"SV210_3\"], activeColor: \"rgba(198, 243, 198, 1.0)\", inactiveColor: \"rgba(230, 230, 230, 1.0)\" },\n    \"SV310.SV_Open\": { selectors: [\"SV310_1\", \"SV310_2\", \"SV310_3\"], activeColor: \"rgba(198, 243, 198, 1.0)\", inactiveColor: \"rgba(230, 230, 230, 1.0)\" },\n    \"SV320.SV_Open\": { selectors: [\"SV320_1\", \"SV320_2\", \"SV320_3\"], activeColor: \"rgba(198, 243, 198, 1.0)\", inactiveColor: \"rgba(230, 230, 230, 1.0)\" },\n    \"PMP200_MTR.Status_Run\": { selectors: [\"PMP200_1\", \"PMP200_2\"], activeColor: \"rgba(198, 243, 198, 1.0)\", inactiveColor: \"rgba(230, 230, 230, 1.0)\" },\n    \"PMP210_MTR.Status_Run\": { selectors: [\"PMP210_1\", \"PMP210_2\"], activeColor: \"rgba(198, 243, 198, 1.0)\", inactiveColor: \"rgba(230, 230, 230, 1.0)\" },\n    \"HTR201_HTR.Status_Run\": { selectors: [\"HTR201_1\", \"HTR201_2\"], activeColor: \"rgba(198, 243, 198, 1.0)\", inactiveColor: \"rgba(230, 230, 230, 1.0)\" },\n    \"HTRCell_HTR.Status_Run\": { selectors: [\"HTRCell_1\", \"HTRCell_2\"], activeColor: \"rgba(198, 243, 198, 1.0)\", inactiveColor: \"rgba(230, 230, 230, 1.0)\" },\n    \"LT201\": { selectors: [\"LT201\"], activeColor: \"rgba(198, 243, 247, 1.0)\", inactiveColor: \"rgba(230, 230, 230, 1.0)\" },\n    \"LT202\": { selectors: [\"LT202\"], activeColor: \"rgba(198, 243, 247, 1.0)\", inactiveColor: \"rgba(230, 230, 230, 1.0)\" },\n    \"LT203\": { selectors: [\"LT203\"], activeColor: \"rgba(198, 243, 247, 1.0)\", inactiveColor: \"rgba(230, 230, 230, 1.0)\" },\n    \"LT301\": { selectors: [\"LT301\"], activeColor: \"rgba(198, 243, 247, 1.0)\", inactiveColor: \"rgba(230, 230, 230, 1.0)\" },\n    \"LT302\": { selectors: [\"LT302\"], activeColor: \"rgba(198, 243, 247, 1.0)\", inactiveColor: \"rgba(230, 230, 230, 1.0)\" },\n    \"LT303\": { selectors: [\"LT303\"], activeColor: \"rgba(198, 243, 247, 1.0)\", inactiveColor: \"rgba(230, 230, 230, 1.0)\" }\n};\n\n// Create an array for updates\nlet updates = [];\n\nfor (let coilTag in coilMapping) {\n    // Read the current state\n    let isActive = modbusCoilStatus[coilTag] === true;  \n\n    // Determine color based on state\n    let color = isActive ? coilMapping[coilTag].activeColor : coilMapping[coilTag].inactiveColor;\n\n    // Format selectors with #\n    let selectors = coilMapping[coilTag].selectors.map(s => `#${s}`).join(\", \");\n\n    // Add to updates\n    updates.push({\n        \"command\": \"set_style\",\n        \"selector\": selectors, \n        \"attributeName\": \"fill\",\n        \"attributeValue\": color\n    });\n}\n\n// Send updates\nmsg.payload = updates;\nreturn msg;\n",
         "outputs": 1,
-        "timeout": "",
+        "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1840,
-        "y": 2160,
+        "x": 400,
+        "y": 3100,
         "wires": [
             [
                 "2d55dea777408eee"
@@ -4425,129 +4485,10 @@
         ]
     },
     {
-        "id": "51bddf2f7f2da43e",
-        "type": "inject",
-        "z": "0e1f3206f48adf14",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 1700,
-        "y": 2100,
-        "wires": [
-            [
-                "5088e65654ed37f4"
-            ]
-        ]
-    },
-    {
-        "id": "e6ec383081915138",
-        "type": "ui_template",
-        "z": "0e1f3206f48adf14",
-        "group": "625872f.40b1e8c",
-        "name": "",
-        "order": 1,
-        "width": 19,
-        "height": 10,
-        "format": "<div id=\"svg-container\">\n    <!-- Embed the full SVG inside the UI template -->\n    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"1920\" height=\"1080\" viewBox=\"0 0 507.9999694824219 285.75\">\n        <g id=\"PMP200\" style=\"fill:grey; fill-opacity:1\">\n            <rect id=\"PMP200_Rect\" style=\"fill:grey; stroke:#000000; stroke-width:0.468166\" \n                width=\"20.017673\" height=\"11.479817\" x=\"218.18257\" y=\"173.43562\"/>\n            <circle id=\"PMP200_Circle\" style=\"fill:grey; stroke:#000000; stroke-width:0.499999\" \n                cx=\"217.81255\" cy=\"184.09818\" r=\"10.646641\"/>\n        </g>\n    </svg>\n</div>\n\n<script>\n    (function(scope) {\n        scope.$watch('msg.payload', function(status) {\n            let newColor = status ? \"#C6F3C6\" : \"grey\"; // Green when ON, grey when OFF\n            \n            // Change color of the pump components\n            document.getElementById(\"PMP200_Rect\").setAttribute(\"fill\", newColor);\n            document.getElementById(\"PMP200_Circle\").setAttribute(\"fill\", newColor);\n        });\n    })(scope);\n</script>\n",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 1980,
-        "y": 2280,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "950edfd71ec04046",
-        "type": "function",
-        "z": "0e1f3206f48adf14",
-        "name": "function 2",
-        "func": "let pumpStatus = true; // Get pump status (default false)\nmsg.payload = pumpStatus;\nreturn msg;\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1800,
-        "y": 2280,
-        "wires": [
-            [
-                "e6ec383081915138"
-            ]
-        ]
-    },
-    {
-        "id": "a491743a8a053c8a",
-        "type": "inject",
-        "z": "0e1f3206f48adf14",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 1680,
-        "y": 2360,
-        "wires": [
-            [
-                "950edfd71ec04046"
-            ]
-        ]
-    },
-    {
-        "id": "a27854311ccad1e5",
-        "type": "function",
-        "z": "0e1f3206f48adf14",
-        "name": "function 5",
-        "func": "// Retrieve last known states from flow memory\nlet lastStates = flow.get(\"lastStates\") || {};\n\n// Define the coil-to-selector mapping and colors\nconst coilMapping = {\n    \"SV120.SV_Open\": { selectors: [\"SV120_1\", \"SV120_2\", \"SV120_3\"], activeColor: \"rgba(198, 243, 198, 1.0)\", inactiveColor: \"rgba(230, 230, 230, 1.0)\" },\n    \"SV130.SV_Open\": { selectors: [\"SV130_1\", \"SV130_2\", \"SV130_3\"], activeColor: \"rgba(198, 243, 198, 1.0)\", inactiveColor: \"rgba(230, 230, 230, 1.0)\" },\n    \"SV210.SV_Open\": { selectors: [\"SV210_1\", \"SV210_2\", \"SV210_3\"], activeColor: \"rgba(198, 243, 198, 1.0)\", inactiveColor: \"rgba(230, 230, 230, 1.0)\" },\n    \"SV310.SV_Open\": { selectors: [\"SV310_1\", \"SV310_2\", \"SV310_3\"], activeColor: \"rgba(198, 243, 198, 1.0)\", inactiveColor: \"rgba(230, 230, 230, 1.0)\" },\n    \"SV320.SV_Open\": { selectors: [\"SV320_1\", \"SV320_2\", \"SV320_3\"], activeColor: \"rgba(198, 243, 198, 1.0)\", inactiveColor: \"rgba(230, 230, 230, 1.0)\" },\n    \"PMP200_MTR.Status_Run\": { selectors: [\"PMP200_1\", \"PMP200_2\"], activeColor: \"rgba(198, 243, 198, 1.0)\", inactiveColor: \"rgba(230, 230, 230, 1.0)\" },\n    \"PMP210_MTR.Status_Run\": { selectors: [\"PMP210_1\", \"PMP210_2\"], activeColor: \"rgba(198, 243, 198, 1.0)\", inactiveColor: \"rgba(230, 230, 230, 1.0)\" },\n    \"HTR201_HTR.Status_Run\": { selectors: [\"HTR201_1\", \"HTR201_2\"], activeColor: \"rgba(198, 243, 198, 1.0)\", inactiveColor: \"rgba(230, 230, 230, 1.0)\" },\n    \"HTRCell_HTR.Status_Run\": { selectors: [\"HTRCell_1\", \"HTRCell_2\"], activeColor: \"rgba(198, 243, 198, 1.0)\", inactiveColor: \"rgba(230, 230, 230, 1.0)\" },\n    \"LT201\": { selectors: [\"LT201\"], activeColor: \"rgba(198, 243, 247, 1.0)\", inactiveColor: \"rgba(230, 230, 230, 1.0)\" },\n    \"LT202\": { selectors: [\"LT202\"], activeColor: \"rgba(198, 243, 247, 1.0)\", inactiveColor: \"rgba(230, 230, 230, 1.0)\" },\n    \"LT203\": { selectors: [\"LT203\"], activeColor: \"rgba(198, 243, 247, 1.0)\", inactiveColor: \"rgba(230, 230, 230, 1.0)\" },\n    \"LT301\": { selectors: [\"LT301\"], activeColor: \"rgba(198, 243, 247, 1.0)\", inactiveColor: \"rgba(230, 230, 230, 1.0)\" },\n    \"LT302\": { selectors: [\"LT302\"], activeColor: \"rgba(198, 243, 247, 1.0)\", inactiveColor: \"rgba(230, 230, 230, 1.0)\" },\n    \"LT303\": { selectors: [\"LT303\"], activeColor: \"rgba(198, 243, 247, 1.0)\", inactiveColor: \"rgba(230, 230, 230, 1.0)\" }\n};\n\n// Read the current coil statuses from the flow variable\nlet modCoilStatus = flow.get(\"modCoilStatus\") || {};\n\n// Create an array for changes\nlet updates = [];\n\nfor (let coilTag in coilMapping) {\n    // Read the current state\n    let isActive = modCoilStatus[coilTag] === true;\n    let lastState = lastStates.hasOwnProperty(coilTag) ? lastStates[coilTag] : null;\n\n    // Only update if the state has changed\n    if (isActive !== lastState) {\n        let color = isActive ? coilMapping[coilTag].activeColor : coilMapping[coilTag].activeColor;\n        let selectors = coilMapping[coilTag].selectors.map(s => `#${s}`).join(\", \"); // Add # to each selector\n\n        updates.push({\n            \"command\": \"set_style\",\n            \"selector\": selectors, // Corrected format: \"#SV120_1, #SV120_2, #SV120_3\"\n            \"attributeName\": \"fill\",\n            \"attributeValue\": color\n        });\n\n        // Update last known state\n        lastStates[coilTag] = isActive;\n    }\n}\n\n// Save the updated states to flow memory\nflow.set(\"lastStates\", lastStates);\n\n// If updates exist, send the message\nif (updates.length > 0) {\n    msg.payload = updates;\n    return msg;\n} else {\n    return null;  // No changes, no message sent\n}\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1840,
-        "y": 2220,
-        "wires": [
-            [
-                "2d55dea777408eee",
-                "07e33cc01eb248de"
-            ]
-        ]
-    },
-    {
         "id": "3ae2d3e4437de255",
         "type": "inject",
         "z": "0e1f3206f48adf14",
+        "g": "891263f2623b3ee2",
         "name": "",
         "props": [
             {
@@ -4565,8 +4506,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 1700,
-        "y": 2180,
+        "x": 200,
+        "y": 3100,
         "wires": [
             [
                 "a27854311ccad1e5"
@@ -4574,10 +4515,51 @@
         ]
     },
     {
-        "id": "07e33cc01eb248de",
+        "id": "655caca86ec029a9",
+        "type": "function",
+        "z": "0e1f3206f48adf14",
+        "name": "Single coil write",
+        "func": "// Retrieve the coil tag and setpoint from msg.payload\nlet { tag, setpoint } = msg.payload;\n\n// Retrieve Modbus coil address mapping from flow context\nlet modCoil = flow.get(\"modCoil\") || [];\n\n// Find the Modbus address for the given tag\nlet coilData = modCoil.find(entry => entry[\"Tag Name\"] === tag);\n\nif (!coilData) {\n    node.error(`Unknown coil tag: ${tag}`, msg);\n    return null;\n}\n\n// Convert Modbus address to 0-based integer\nlet address = parseInt(coilData[\"MODBUS Start Address\"], 10) - 1;\n\n// Construct Modbus write message\nmsg.payload = {\n    'unitId': 1,      // PLC Modbus Unit ID\n    'fc': 5,         // Function Code: Write Single Coil\n    'address': address, // Modbus coil address\n    'value': setpoint ? 1 : 0, // Convert boolean to 1 or 0\n    'quantity': 1\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 940,
+        "y": 3560,
+        "wires": [
+            [
+                "098e0fb7b999add0"
+            ]
+        ]
+    },
+    {
+        "id": "098e0fb7b999add0",
+        "type": "modbus-flex-write",
+        "z": "0e1f3206f48adf14",
+        "name": "",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "server": "f905b5f3395bcec1",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 1150,
+        "y": 3560,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "3d33c8da5bb204cf",
         "type": "debug",
         "z": "0e1f3206f48adf14",
-        "name": "debug 18",
+        "g": "28d6aa434baf0184",
+        "name": "debug 21",
         "active": true,
         "tosidebar": true,
         "console": false,
@@ -4585,8 +4567,442 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 2050,
-        "y": 2220,
+        "x": 430,
+        "y": 2120,
+        "wires": []
+    },
+    {
+        "id": "43fb78c263cff003",
+        "type": "function",
+        "z": "0e1f3206f48adf14",
+        "name": "HMI_Manual",
+        "func": "// First, send HMI_Start = true\nvar msg1 = { payload: { \"tag\": \"HMI_Manual\", \"setpoint\": msg.payload } };\n\nreturn msg1;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 3440,
+        "wires": [
+            [
+                "655caca86ec029a9"
+            ]
+        ]
+    },
+    {
+        "id": "28aae914dc02d494",
+        "type": "inject",
+        "z": "0e1f3206f48adf14",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 380,
+        "y": 3420,
+        "wires": [
+            [
+                "43fb78c263cff003"
+            ]
+        ]
+    },
+    {
+        "id": "0d0fd00deab4a399",
+        "type": "link in",
+        "z": "0e1f3206f48adf14",
+        "g": "891263f2623b3ee2",
+        "name": "link in 8",
+        "links": [
+            "49263ca4933dbd63"
+        ],
+        "x": 255,
+        "y": 3020,
+        "wires": [
+            [
+                "a27854311ccad1e5"
+            ]
+        ]
+    },
+    {
+        "id": "19582343872ba25b",
+        "type": "ui_switch",
+        "z": "0e1f3206f48adf14",
+        "name": "",
+        "label": "SV120",
+        "tooltip": "",
+        "group": "2d8055515cc5bf53",
+        "order": 9,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": ".nr-dashboard-theme .nr-dashboard-text .label {         font-size: 25px;  }",
+        "x": 530,
+        "y": 3500,
+        "wires": [
+            [
+                "0c65acb1241053b1"
+            ]
+        ]
+    },
+    {
+        "id": "0c65acb1241053b1",
+        "type": "function",
+        "z": "0e1f3206f48adf14",
+        "name": "SV120",
+        "func": "var msg = { payload: { \"tag\": \"HMI_SV120_Open\", \"setpoint\": msg.payload } };\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 3500,
+        "wires": [
+            [
+                "655caca86ec029a9"
+            ]
+        ]
+    },
+    {
+        "id": "0fcfdb07a1eabfea",
+        "type": "ui_switch",
+        "z": "0e1f3206f48adf14",
+        "name": "",
+        "label": "HMI Manual",
+        "tooltip": "",
+        "group": "2d8055515cc5bf53",
+        "order": 3,
+        "width": 2,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 130,
+        "y": 3660,
+        "wires": [
+            [
+                "ad409912680a26fc",
+                "43fb78c263cff003"
+            ]
+        ]
+    },
+    {
+        "id": "ad409912680a26fc",
+        "type": "change",
+        "z": "0e1f3206f48adf14",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "enabled",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 300,
+        "y": 3660,
+        "wires": [
+            [
+                "19582343872ba25b",
+                "7c8cd82161696dbe",
+                "fa42f446116f08bc",
+                "7a554a0d03cd9a5b",
+                "39244fa04a4ce7d5"
+            ]
+        ]
+    },
+    {
+        "id": "7c8cd82161696dbe",
+        "type": "ui_switch",
+        "z": "0e1f3206f48adf14",
+        "name": "",
+        "label": "SV130",
+        "tooltip": "",
+        "group": "2d8055515cc5bf53",
+        "order": 4,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 530,
+        "y": 3560,
+        "wires": [
+            [
+                "155ec724df87d928"
+            ]
+        ]
+    },
+    {
+        "id": "155ec724df87d928",
+        "type": "function",
+        "z": "0e1f3206f48adf14",
+        "name": "SV130",
+        "func": "var msg = { payload: { \"tag\": \"HMI_SV130_Open\", \"setpoint\": msg.payload } };\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 3560,
+        "wires": [
+            [
+                "655caca86ec029a9"
+            ]
+        ]
+    },
+    {
+        "id": "fa42f446116f08bc",
+        "type": "ui_switch",
+        "z": "0e1f3206f48adf14",
+        "name": "",
+        "label": "SV210",
+        "tooltip": "",
+        "group": "2d8055515cc5bf53",
+        "order": 5,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 530,
+        "y": 3620,
+        "wires": [
+            [
+                "b626fbf36323dfa9"
+            ]
+        ]
+    },
+    {
+        "id": "b626fbf36323dfa9",
+        "type": "function",
+        "z": "0e1f3206f48adf14",
+        "name": "SV210",
+        "func": "var msg = {\n    payload: {\n        \"tag\": \"SV210_HMI_Open\", \"setpoint\": msg.payload } };\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 3620,
+        "wires": [
+            [
+                "655caca86ec029a9"
+            ]
+        ]
+    },
+    {
+        "id": "7a554a0d03cd9a5b",
+        "type": "ui_switch",
+        "z": "0e1f3206f48adf14",
+        "name": "",
+        "label": "SV310",
+        "tooltip": "",
+        "group": "2d8055515cc5bf53",
+        "order": 6,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 530,
+        "y": 3680,
+        "wires": [
+            [
+                "e3e51d5261f83d18"
+            ]
+        ]
+    },
+    {
+        "id": "e3e51d5261f83d18",
+        "type": "function",
+        "z": "0e1f3206f48adf14",
+        "name": "SV310",
+        "func": "var msg = { payload: { \"tag\": \"SV310.HMI_Close\", \"setpoint\": msg.payload } };\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 3680,
+        "wires": [
+            [
+                "655caca86ec029a9"
+            ]
+        ]
+    },
+    {
+        "id": "39244fa04a4ce7d5",
+        "type": "ui_switch",
+        "z": "0e1f3206f48adf14",
+        "name": "",
+        "label": "SV320",
+        "tooltip": "",
+        "group": "2d8055515cc5bf53",
+        "order": 7,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 530,
+        "y": 3740,
+        "wires": [
+            [
+                "656a076b5d7b8bb7"
+            ]
+        ]
+    },
+    {
+        "id": "656a076b5d7b8bb7",
+        "type": "function",
+        "z": "0e1f3206f48adf14",
+        "name": "SV310",
+        "func": "var msg = { payload: { \"tag\": \"SV320_HMI_Open\", \"setpoint\": msg.payload } };\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 3740,
+        "wires": [
+            [
+                "655caca86ec029a9"
+            ]
+        ]
+    },
+    {
+        "id": "da9eab8ee8993426",
+        "type": "ui_template",
+        "z": "0e1f3206f48adf14",
+        "group": "2d8055515cc5bf53",
+        "name": "Change switch font",
+        "order": 13,
+        "width": 1,
+        "height": 1,
+        "format": "<style>\n/* Apply font style to all switch labels */\n.md-container label,\n.nr-dashboard-switch p {\n    font-family: \"Arial\", sans-serif !important;\n    font-size: 10px !important;\n    font-weight: normal !important;\n    color: black !important;\n}\n\n/* Target a specific switch label by its text */\nmd-switch:has(span:contains(\"Your Switch Label\")) {\n    font-family: \"Verdana\", sans-serif !important;\n    font-size: 20px !important;\n    color: red !important;\n}\n\n/* Reduce spacing between switch label and button */\n.nr-dashboard-switch {\n    display: flex !important;\n    align-items: center !important; /* Ensures vertical alignment */\n}\n\n.nr-dashboard-switch md-switch {\n    margin-left: -10px !important; /* Moves the switch closer to the text */\n}\n\n/* Optionally, target a specific switch label */\n.nr-dashboard-switch span {\n    margin-right: 0px !important;\n    padding-right: 0px !important;\n}\n</style>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "global",
+        "className": "",
+        "x": 130,
+        "y": 3360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1381504cc2d4d44b",
+        "type": "comment",
+        "z": "0e1f3206f48adf14",
+        "g": "891263f2623b3ee2",
+        "name": "P&ID Display and color",
+        "info": "",
+        "x": 160,
+        "y": 3020,
         "wires": []
     },
     {
